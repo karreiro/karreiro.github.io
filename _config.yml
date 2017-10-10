@@ -1,43 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+title: Guilherme Carreiro
+author: Guilherme Carreiro
+email: karreiro@gmail.com
+description: >
+  Sou Guilherme Carreiro. Atualmente trabalho para Red Hat,
+  100% do tempo com código Open Source.
+  Sou membro do KIE Group e atuo principalmente no Drools e no jBPM,
+  evoluindo os principais editores do Drools Workbench.
+baseurl: ''
+url: 'http://karreiro.com'
+google_analytics: 'UA-108493780-1'
+twitter_username: karreiro_
+github_username:  karreiro
 markdown: kramdown
-theme: minima
-gems:
+
+disqus:
+  shortname: karreiro
+
+plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+talks:
+
+  - title: 'JavaScript<br />The Right Way'
+    conference: 'FLISOL Campinas'
+    year: 2013
+    color: '#FBAA18'
+    file_name: '2013-javascript-the-right-way.pdf'
+
+  - title: 'JavaScript de Qualidade: Hoje, Amanhã e Sempre'
+    conference: 'DevCamp / TDC São Paulo'
+    year: 2014
+    color: '#387EA4'
+    file_name: '2014-qualidade-js.pdf'
+
+  - title: 'Metaprogramação<br />na prática'
+    conference: 'TDC Florianópolis'
+    year: 2015
+    color: '#626A8A'
+    file_name: '2015-tdc-metaprogramacao.pdf'
+
+  - title: 'DSLs em Ruby'
+    conference: 'TDC São Paulo'
+    year: 2015
+    color: '#CA6063'
+    file_name: '2015-dsls-ruby.pdf'
+
+  - title: 'Action Cable<br />em Ação'
+    conference: 'TDC São Paulo'
+    year: 2016
+    color: '#5E327C'
+    file_name: '2016-actioncable.pdf'
+
+  - title: '5 pilares para uma aplicação Java Web bem-sucedida'
+    conference: 'Red Hat Forum / JUG Campinas'
+    year: 2017
+    color: '#A73636'
+    file_name: '2017-5pilares.pdf'
