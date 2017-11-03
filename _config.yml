@@ -46,7 +46,7 @@ talks:
     file_name: '2015-dsls-ruby.pdf'
 
   - title: 'Action Cable<br />em Ação'
-    conference: 'TDC São Paulo'
+    conference: 'TDC São Paulo / Rupy'
     year: 2016
     color: '#5E327C'
     file_name: '2016-actioncable.pdf'

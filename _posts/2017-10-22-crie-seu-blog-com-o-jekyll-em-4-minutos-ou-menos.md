@@ -74,11 +74,11 @@ $ tree
 ```
 
 - O `_config.yml` armazena todas configurações do seu blog e variáveis globais, acessíveis a qualquer momento na aplicação;
-- O diretório `_site` recebe os arquivos estáticos gerados pelo Jekyll, e este diretório que "vai pra produção" no final das constas;
+- O diretório `_site` recebe os arquivos estáticos gerados pelo Jekyll, este é o diretório que "vai pra produção" no final das constas;
 - O `Gemfile` é o arquivo que descreve as dependências do nosso projeto, enquanto o `Gemfile.lock` é um arquivo gerado que descreve as dependências instaladas;
 - Os arquivos `about.md` e `index.md` geram páginas estáticas HTML, respectivamente, `about/index.html` e `index.html`;
 - Apesar do `404.html` já ser um arquivo HTML, ele também é processado, ganhando o cabeçalho `<head>`, o `<footer>` e tudo mais que está definido no layout default;
-- Por fim, no diretório `_posts`, adicionamos nossos posts formatados usando Markdown (pode alterar o `2017-10-22-welcome-to-jekyll.markdown` e começar sua primeira empreitada)/
+- Por fim, no diretório `_posts`, adicionamos nossos posts formatados usando Markdown (pode alterar o `2017-10-22-welcome-to-jekyll.markdown` e começar sua primeira empreitada).
 
 Mas... você deve estar pesando: - De onde vem esse layout default? E esse `main.css`? Boa sacada se você estava pensando isso! O nosso `_config.yml` tem uma linha que define o tema que está sendo utilizado, veja:
 ```
@@ -88,14 +88,17 @@ theme: minima
 ```
 gem "minima", "~> 2.0"
 ```
-Podemos mudar esse tema, alterando todo o layout do nosso blog em apenas 3 passos:
-1. No `Gemfile`, substituímos a linha `gem "minima", "~> 2.0"` por `gem "jekyll-swiss"`;
-2. No `_config.yml`, substituímos a linha `theme: minima` por `theme: jekyll-swiss`.
-3. E finalmente, baixamos as dependências com:
+Podemos mudar isso, alterando todo o layout do nosso blog em apenas 3 passos:
+- No `Gemfile`, substituímos a linha `gem "minima", "~> 2.0"` por `gem "jekyll-swiss"`;
+- No `_config.yml`, substituímos a linha `theme: minima` por `theme: jekyll-swiss`.
+- E finalmente, baixamos as dependências com:
+
 ```
 $ bundle install
 ```
-...e pronto! Vamos rodar a aplicação para visualizar o efeito:
+
+...e pronto! Vamos rodar a aplicação para ver o que acontece:
+
 ```
 $ jekyll serve
 ```
@@ -108,7 +111,7 @@ $ jekyll serve
 
 O processo de deploy do Jekyll é realmente simple e super integrado com o GitHub pages.
 
-Tudo que você precisa fazer é fazer é criar um repositório com seu login do GitHub, no meu caso, meu login é `karreiro`, então o repositório do meu blog é `karreiro.github.io` e commitar o projeto que criamos `nosso-blog` na branch `master`.
+Tudo que você precisa fazer é criar um repositório chamado _seu_username.github.io_ e commitar o projeto que criamos na branch `master`. No meu caso, meu _username_ é `karreiro`, então o repositório do meu blog é `karreiro.github.io`.
 
 Tudo será automaticamente buildado e seu site já estará disponível.
 

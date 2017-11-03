@@ -14,6 +14,6 @@ De quebra, você gera mais alguns kilobytes de conteúdo pra internet, outras pe
 
 Porque no final das contas, todo mundo pode estudar a documentação de certo framework ou ler artigos científicos de determinada área. Mas as vezes, tudo que precisamos ou queremos, é uma leitura mais leve sob um viés que confiamos. É por isso que seguimos profissionais favoritos.
 
-Você certamente é bastante crítico e possui um viés de análise sob determinado tópico. e provavelmente terá um viés que será muito mais fácil de digerir pra determinado público.
+Você certamente é bastante crítico, possui um viés de análise interessante sobre determinado tópico e provavelmente terá uma visão fácil de digerir pra determinado público.
 
 Divirta-se produzindo, comentando, ou lendo. Sem pressão. Just take your time ;-)
