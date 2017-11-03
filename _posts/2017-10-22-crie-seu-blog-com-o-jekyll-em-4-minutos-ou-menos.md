@@ -23,7 +23,7 @@ ruby 2.3.4p301 (2017-03-30 revision 58214) [x86_64-darwin17]
 ```
 Se você tiver uma versão abaixo do 2.1 ou não tiver o Ruby instalado, [confira aqui](https://www.ruby-lang.org/en/documentation/installation) o processo de instalação.
 
-Com uma versão válida do Ruby configurado, podemos finalmente nos preocupar com o Jekyll. Para o instalarmos, executamos a linha a seguir, que também instalará o Bundler (um gerenciador de aplicações Ruby):
+Com uma versão válida do Ruby configurada, podemos finalmente nos preocupar com o Jekyll. Para o instalarmos, executamos a linha a seguir, que também instalará o Bundler (um gerenciador de aplicações Ruby):
 ```
 $ gem install jekyll bundler
 ```
@@ -105,7 +105,7 @@ $ jekyll serve
 
 ![ScreenShot com o Swiss](/assets/swiss-screenshot.jpg "Jekyll Swiss")
 
-**Woow!** olha só [http://127.0.0.1:4000](http://127.0.0.1:4000). Além dos temas oficiais [minima](https://github.com/jekyll/minima), [swiss](https://github.com/broccolini/swiss) e [athena](https://github.com/broccolini/athena). Você pode encontrar muito outros em [jekyllthemes.org](jekyllthemes.org).
+**Woow!** olha só [http://127.0.0.1:4000](http://127.0.0.1:4000). Além dos temas oficiais [minima](https://github.com/jekyll/minima), [swiss](https://github.com/broccolini/swiss) e [athena](https://github.com/broccolini/athena). Você pode encontrar muito outros em [http://jekyllthemes.org](jekyllthemes.org).
 
 ### Deploy
 
