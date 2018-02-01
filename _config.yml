@@ -56,3 +56,9 @@ talks:
     year: 2017
     color: '#A73636'
     file_name: '2017-5pilares.pdf'
+
+  - title: 'Design Patterns - O que você precisa saber para se virar no mercado'
+    conference: 'Campus Party'
+    year: 2018
+    color: '#88304E'
+    file_name: '2018-design-patterns.pdf'
