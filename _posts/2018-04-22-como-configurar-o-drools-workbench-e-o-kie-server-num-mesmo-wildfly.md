@@ -4,11 +4,11 @@ title:  "Como configurar o Drools Workbench e o KIE Server num mesmo WildFly"
 date:   2018-04-22 00:00:00 -0300
 ---
 
-Talvez você não saiba, mas estou trabalhando na evolução do Drools Workbench [1] nos últimos dois anos. É bastante recompensador e se você também quiser contribuir para desse projeto pode começar por [aqui](https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/master/README.md).
+Talvez você não saiba, mas estou trabalhando na evolução do Drools Workbench [1] nos últimos dois anos. É bastante recompensador e se você também quiser contribuir para esse projeto pode começar por [aqui](https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/master/README.md).
 
 Durante a reprodução de determinados cenários e evolução de features, percebo uma dúvida surgir frequentemente entre as pessoas do time e contribuidores da comunidade: _"Como subir o Workbench e o KIE Server_ [2] _num mesmo WildFly?"_.
 
-Neste post, faremos isso juntos da maneira mais rápida possível em apenas 3 etapas :-)
+Neste post, faremos isso juntos da maneira mais rápida possível com apenas 3 etapas :-)
 
 
 ### 1) Preparando o WildFly
@@ -42,7 +42,7 @@ Pronto, o WildFly está configurado! :-)
 
 ### 2) Obtendo o KIE Server e o Drools Workbench
 
-Talvez você já tenha o WAR do KIE Server e do Drools Workbench. Entretanto, se você estiver em seus primeiros dias de contribuição, seria legal buildar a versão mais atualizada destes projetos.
+Talvez você já tenha o WAR do KIE Server e do Drools Workbench. Entretanto, se você estiver em seus primeiros dias de contribuição, seria legal _buildar_ a versão mais atualizada destes projetos.
 
 Para conseguir o artefato do KIE Server, faça o clone [deste repositório](https://github.com/kiegroup/droolsjbpm-integration), build e encontre o WAR aqui:
 ```
@@ -86,7 +86,7 @@ Espero que esse tutorial tenha sido útil pra você e lembre-se, divirta-se ;-)
 
 ---
 
-> [1] Drools Workbench is is a full featured web application for the visual composition of custom business rules and processes.
+> [1] Drools Workbench is a full featured web application for the visual composition of custom business rules and processes.
 > <br />Source: https://docs.jboss.org/drools/release/latest/drools-docs/html_single/#_welcome
 
 > [2] The Kie Server is a modular, standalone server component that can be used to instantiate and execute rules and processes. It exposes this functionality via REST, JMS and Java interfaces to client application. It also provides seamless integration with the Kie Workbench.
