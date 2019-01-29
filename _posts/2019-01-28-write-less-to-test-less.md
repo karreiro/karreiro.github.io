@@ -14,7 +14,7 @@ See these two options for implementing the "same thing":
 
 They look pretty similar, right? Option one is more verbose, while option two maybe seems cleaner, but they don't look that different at all.
 
-In the first approach, we're analyzing the `Optional` variable `user,` and checking if it's present, to actively perform the save action.
+In the first approach, we're analyzing the `Optional` variable `user`, and checking if it's present, to actively perform the save action.
 
 While in the second approach, we're just delegating the check to the `Optional` implementation, we're just calling a method and passing a lambda as a parameter without creating any new branch.
 
