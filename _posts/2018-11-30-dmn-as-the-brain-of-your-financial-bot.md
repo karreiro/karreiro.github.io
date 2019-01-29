@@ -6,16 +6,22 @@ date:   2018-11-30 00:00:00 -0300
 
 October was a great month at work :-)
 
-The DMN editor (the tool I've been working in last weeks) was released as a tech preview in the Workbench, and I could write an exciting blog post presenting its features to the community. You can read more about it [here](http://blog.athico.com/2018/10/new-dmn-editor-preview.html) 🤓
+The DMN editor (the tool I've been working in last weeks) was released as a tech preview in the Business Central, and I could write an exciting blog post presenting its features to the community. You can read more about it [here](http://blog.athico.com/2018/10/new-dmn-editor-preview.html) 🤓
 
-With the new editor, Workbench users can create their DMN diagrams and make them available as a REST service. There are many complex and challenging use cases for this new feature, but I'm going to demonstrate an easy and fun one here.
+With the new editor, users can create their DMN diagrams and make them available as a REST service. There are many complex and challenging use cases for this new feature, but I'm going to demonstrate an easy and fun one here.
 
 Do you remember the bot we wrote in the last post?
 [![Demo](/assets/demo-bot.gif "Demo")](/assets/demo-bot.gif)
 
 Great! In summary, our bot receives the value of an expense, classifies it, stores, and finally, he answers "Ok, fine!". No more than that.
 
-Today, we're going to make our dummy bot a little bit smarter. We want to ask: - Is a good idea to buy a Nintendo Switch?; and get something like this as an answer: - Hmmm... Yes, you can! You have the budget for this.
+Today, we're going to make our dummy bot smarter. We want to ask:
+
+<b>_- Is a good idea to buy a Nintendo Switch?_</b>
+
+..and get something like this as an answer:
+
+<b>_- Hmmm... Yes, you can! You have the budget for this._</b>
 
 Impressive, right? Ok, let's do this in three simple steps.
 
