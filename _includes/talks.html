@@ -1,26 +1,22 @@
-<h2>Talks</h2>
-
 <div class="talks">
-
   {% for talk in site.talks reversed %}
 
-    <a href="/assets/talks/{{ talk.file_name }}" target="_blank" class="talk">
+  <a href="/assets/talks/{{ talk.file_name }}" target="_blank" class="talk">
 
-      <div style="background-color: {{ talk.color }}" class="thumb">
-        <span>
-          {{ talk.title }}
-        </span>
-      </div>
+    <div style="background-color: {{ talk.color }}" class="thumb">
+      <span>
+        {{ talk.title }}
+      </span>
+    </div>
 
-      <div class="conference">
-        {{ talk.conference }}
-      </div>
+    <div class="conference">
+      {{ talk.conference }}
+    </div>
 
-      <div class="year">
-        {{ talk.year }}
-      </div>
-    </a>
+    <div class="year">
+      {{ talk.year }}
+    </div>
+  </a>
 
   {% endfor %}
-
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Por que você *deveria* criar um blog agora"
+title:  "[pt-br] Por que você *deveria* criar um blog agora"
 date:   2017-10-19 00:00:00 -0300
 ---
 
