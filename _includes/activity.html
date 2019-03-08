@@ -1,11 +1,17 @@
 <ul class="activity">
   {% for post in site.posts %}
-  <li>
-    <span>{{ post.date | date: '%b %-d, %Y' }}</span>
-    -
-    <a href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}
-    </a>
+  <li class="row">
+
+    <div class="column column-20">
+      <span>{{ post.date | date: '%b %-d, %Y' }}</span>
+    </div>
+
+    <div class="column">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </div>
+
   </li>
   {% endfor %}
 </ul>

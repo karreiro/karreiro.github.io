@@ -3,9 +3,40 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .activity
-  list-style: none
+  padding: 0
   
   span
-    width: 11.5rem
-    display: inline-block
     opacity: .75
+    white-space: nowrap
+
+  .column-20
+    font-style: italic
+
+  .row
+    &:hover
+      background-color: rgba(0, 0, 0, .025)
+
+    a:hover
+      color: $color-primary
+
+    .column
+      margin-bottom: 0
+
+  @media (min-width: 50.0rem)
+    .column-20
+      position: relative
+
+      &:after
+        content: "-"
+        position: absolute
+        opacity: .75
+        width: 10px
+        top: 0
+        right: 5px
+
+  @media (max-width: 40.0rem)
+    span
+      font-size: 1.5rem
+    .row
+      .column-20
+        line-height: 1.75rem
