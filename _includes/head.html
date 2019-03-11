@@ -8,11 +8,12 @@
     #
     {{ site.title | escape }}
     {% if page.title %}
-      |
-      {{ page.title | escape }}
+    |
+    {{ page.title | escape }}
     {% endif %}
   </title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description"
+    content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link rel="icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif|Domine">
@@ -20,8 +21,10 @@
   <link rel="stylesheet" href="/assets/normalize.css">
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+    href="{{ '/feed.xml' | relative_url }}">
+  <script src="/assets/js/typed.min.js"></script>
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
