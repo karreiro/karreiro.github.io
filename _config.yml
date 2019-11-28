@@ -59,3 +59,9 @@ talks:
     year: 2018
     color: '#88304E'
     file_name: '2018-design-patterns.pdf'
+
+  - title: 'Mantendo seu monolito vivo em um ambiente de alta disponibilidade'
+    conference: 'TDC Porto Alegre'
+    year: 2019
+    color: '#1E202C'
+    file_name: '2019-mantendo-seu-monolito-vivo.pdf'
