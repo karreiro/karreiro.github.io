@@ -1,42 +1,13 @@
 ---
 layout: default
 ---
-<section class="container">
-    <h3>
-        Hi, I'm Guilherme Carreiro.
-        <span data-typed="Check my activity log:"></span>
-    </h3>
-
+<section class="container home">
+    <div class="profile-picture-frame">
+        <img alt="profile picture" class="profile-picture" src="/assets/profile-picture.png" />
+    </div>
+    <h1>Guilherme Carreiro</h1>
     <hr />
-
+    {% include highlights.html %}
+    <hr />
     {% include activity.html %}
 </section>
-
-<script type="text/javascript">
-    (function () {
-
-        function getTypedElement() {
-            return document.querySelector('[data-typed]');
-        }
-
-        function hideCursor() {
-            getTypedElement().nextSibling.hidden = true;
-        }
-
-        function hideCursorAfter2Seconds() {
-            setTimeout(hideCursor, 2000);
-        }
-
-        function showTypedSentence() {
-            var element = getTypedElement();
-            new Typed(element, {
-                strings: [ element.getAttribute('data-typed') ],
-                typeSpeed: 30,
-                startDelay: 700,
-                onStringTyped: hideCursorAfter2Seconds
-            });
-        }
-
-        showTypedSentence();
-    }());
-</script>

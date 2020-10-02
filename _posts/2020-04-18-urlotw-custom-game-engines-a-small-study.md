@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[URLOTW] Custom game engines: A Small Study"
-date:   2020-04-18 00:00:00 -0300
+title: "[URLOTW] Custom game engines: A Small Study"
+date: 2020-04-18 00:00:00 -0300
 ---
 
-**URLOTW** or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL I discover during the week.
+<span class="bg-highlight">URLOTW</span> or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL for you :-)
 
 This week the winner is **Custom game engines: A Small Study**:
 [gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74).

@@ -6,10 +6,10 @@ permalink: /about/
 
 Hi, I'm Guilherme Carreiro, aka `karreiro` :-)
 
-I work as a Software Engineer at Red Hat in the Drools project. Currently, I'm involved with the development of the DMN editor into the platform.
+<a href="/assets/about.jpg">
+  <img src="/assets/about.jpg" class="image-box-shadow" alt="Guilherme Carreiro presenting a talk" title="Guilherme Carreiro presenting a talk">
+</a>
 
-I love to program, to automate some everyday-task with a smart script, and to keep my workstation ***very*** neat 👀
+I work as a Senior Software Engineer at Red Hat. Currently, I'm involved with the development of the DMN tooling into the platform.
 
-I'm also a home office advocate :flip-flops-emoji: and the Zelda number one fan :navi-emoji:
-
-I would leave some social links here to [Twitter](https://twitter.com/karreiro_), [LinkedIn](https://www.linkedin.com/in/karreiro), even my [Hashnode](https://hashnode.com/@karreiro) account, but most of the time I'm trying to open new PRs and review code on [GitHub](https://github.com/karreiro).
+I'm not a entusiat of social networks 😅 but you find me here: [github.com/karreiro](https://github.com/karreiro), [linkedin.com/in/karreiro](https://www.linkedin.com/in/karreiro), [twitter.com/karreiro\_](https://twitter.com/karreiro_).

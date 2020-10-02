@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[URLOTW] 30 seconds of code"
-date:   2019-10-13 00:00:00 -0300
+title: "[URLOTW] 30 seconds of code"
+date: 2019-10-13 00:00:00 -0300
 ---
 
-**URLOTW** or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL I discover during the week.
+<span class="bg-highlight">URLOTW</span> or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL for you :-)
 
 This week the winner is **30 seconds of code**:
 [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code).

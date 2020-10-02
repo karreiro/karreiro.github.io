@@ -3,11 +3,11 @@ author: Guilherme Carreiro
 email: karreiro@gmail.com
 description: >
   Hi, I'm Guilherme Carreiro. Check my activity log :-)
-baseurl: ''
-url: 'http://karreiro.com'
-google_analytics: 'UA-108493780-1'
+baseurl: ""
+url: "http://karreiro.com"
+google_analytics: "UA-108493780-1"
 twitter_username: karreiro_
-github_username:  karreiro
+github_username: karreiro
 markdown: kramdown
 
 disqus:
@@ -17,51 +17,50 @@ plugins:
   - jekyll-feed
 
 talks:
-
-  - title: 'JavaScript<br />The Right Way'
-    conference: 'FLISOL Campinas'
+  - title: "JavaScript<br />The Right Way"
+    conference: "FLISOL Campinas"
     year: 2013
-    color: '#FBAA18'
-    file_name: '2013-javascript-the-right-way.pdf'
+    color: "#FBAA18"
+    file_name: "2013-javascript-the-right-way.pdf"
 
-  - title: 'JavaScript de Qualidade: Hoje, Amanhã e Sempre'
-    conference: 'DevCamp / TDC São Paulo'
+  - title: "JavaScript de Qualidade: Hoje, Amanhã e Sempre"
+    conference: "DevCamp / TDC São Paulo"
     year: 2014
-    color: '#387EA4'
-    file_name: '2014-qualidade-js.pdf'
+    color: "#387EA4"
+    file_name: "2014-qualidade-js.pdf"
 
-  - title: 'Metaprogramação<br />na prática'
-    conference: 'TDC Florianópolis'
+  - title: "Metaprogramação<br />na prática"
+    conference: "TDC Florianópolis"
     year: 2015
-    color: '#626A8A'
-    file_name: '2015-tdc-metaprogramacao.pdf'
+    color: "#626A8A"
+    file_name: "2015-tdc-metaprogramacao.pdf"
 
-  - title: 'DSLs em Ruby'
-    conference: 'TDC São Paulo'
+  - title: "DSLs em Ruby"
+    conference: "TDC São Paulo"
     year: 2015
-    color: '#CA6063'
-    file_name: '2015-dsls-ruby.pdf'
+    color: "#CA6063"
+    file_name: "2015-dsls-ruby.pdf"
 
-  - title: 'Action Cable<br />em Ação'
-    conference: 'TDC São Paulo / Rupy'
+  - title: "Action Cable<br />em Ação"
+    conference: "TDC São Paulo / Rupy"
     year: 2016
-    color: '#5E327C'
-    file_name: '2016-actioncable.pdf'
+    color: "#5E327C"
+    file_name: "2016-actioncable.pdf"
 
-  - title: '5 pilares para uma aplicação Java Web bem-sucedida'
-    conference: 'Red Hat Forum / JUG Campinas'
+  - title: "5 pilares para uma aplicação Java Web bem-sucedida"
+    conference: "Red Hat Forum / JUG Campinas"
     year: 2017
-    color: '#A73636'
-    file_name: '2017-5pilares.pdf'
+    color: "#A73636"
+    file_name: "2017-5pilares.pdf"
 
-  - title: 'Design Patterns - O que você precisa saber para se virar no mercado'
-    conference: 'Campus Party'
+  - title: "Design Patterns - O que você precisa saber para se virar no mercado"
+    conference: "Campus Party"
     year: 2018
-    color: '#88304E'
-    file_name: '2018-design-patterns.pdf'
+    color: "#88304E"
+    file_name: "2018-design-patterns.pdf"
 
-  - title: 'Mantendo seu monolito vivo em um ambiente de alta disponibilidade'
-    conference: 'TDC Porto Alegre'
+  - title: "Mantendo seu monolito vivo em um ambiente de alta disponibilidade"
+    conference: "TDC Porto Alegre"
     year: 2019
-    color: '#1E202C'
-    file_name: '2019-mantendo-seu-monolito-vivo.pdf'
+    color: "#0f5855"
+    file_name: "2019-mantendo-seu-monolito-vivo.pdf"
