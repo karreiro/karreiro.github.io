@@ -30,3 +30,7 @@ We already could decompose a huge business decisions into multiple meaningful no
 Now, we can finally break the DMN graph into many sub-digrams. It's all about simplifying how we visually express decisions.
 
 Stay tuned for the future updates! ;-)
+
+-
+
+Notice: in some use cases, when your DMN model contains multiple decision requirements diagrams (DRDs), you may face some validation errors that prevent the execution. You can the `kogito.decisions.validation=DISABLED` property into the `application.properties` to disable model validation and successfully execute the model. This is issue wont be present on Kogito Tooling 0.7.1 (end of October) - [KOGITO-3571](https://issues.redhat.com/browse/KOGITO-3571).
