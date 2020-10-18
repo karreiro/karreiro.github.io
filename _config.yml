@@ -64,3 +64,9 @@ talks:
     year: 2019
     color: "#0f5855"
     file_name: "2019-mantendo-seu-monolito-vivo.pdf"
+
+  - title: "DMN for Developers"
+    conference: "Kie community live"
+    year: 2020
+    color: "#af1d60"
+    file_name: "2020-dmn-for-developers.pdf"
