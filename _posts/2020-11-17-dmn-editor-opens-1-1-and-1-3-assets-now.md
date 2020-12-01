@@ -16,4 +16,4 @@ As you probably have already noticed, this is a baby step toward fully-supportin
 
 Thinking on the tooling's future, we've also introduced a backward compatibility [test suite](https://github.com/kiegroup/kie-wb-common/pull/3482) with almost every file pushed in the [dmn-tck](https://github.com/dmn-tck/tck) repository. It ensures that new Kogito releases will continue supporting older DMN versions without any regression.
 
-We'll release Kogito 0.8.1 in a few days with other surprising news. Stay tuned! ;-)
+We'll release Kogito 0.8.1 in a few days with other surprising news. Stay tuned! :-)
