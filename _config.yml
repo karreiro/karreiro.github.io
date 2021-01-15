@@ -9,7 +9,7 @@ google_analytics: "UA-108493780-1"
 twitter_username: karreiro_
 github_username: karreiro
 markdown: kramdown
-
+permalink: pretty
 disqus:
   shortname: karreiro
 
