@@ -11,7 +11,7 @@ class WikiProcessor
     create_wiki_dir
     create_wiki_index
     show_success_message
-  rescue
+  rescue StandardError
     show_error_message
   end
 

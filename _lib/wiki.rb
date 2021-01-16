@@ -18,7 +18,8 @@ class Wiki
   def index_content
     <<~JEKYLL
       ---
-      #{name}
+      layout: wiki
+      title: #{name}
       ---
     JEKYLL
   end

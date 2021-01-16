@@ -12,7 +12,9 @@ markdown: kramdown
 permalink: pretty
 disqus:
   shortname: karreiro
-
+exclude:
+  - Gemfile*
+  - Rakefile
 plugins:
   - jekyll-feed
 
