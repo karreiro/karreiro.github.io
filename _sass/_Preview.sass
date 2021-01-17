@@ -1,0 +1,64 @@
+
+// Preview
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.preview
+  &.tooltip, 
+  &.tooltip-iframe
+    pointer-events: none
+  &.tooltip-iframe
+    display: none
+    height: 0
+    width: 0  
+  &.tooltip
+    pointer-events: none
+    opacity: 0
+    margin-top: 1rem
+    background: #ffffff
+    padding: 1em
+    overflow: hidden
+    position: fixed
+    border: 1px solid #eeeeee
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .15)
+    transition: opacity 100ms, margin 100ms
+    transform: translateZ(0)
+    z-index: 1
+    filter: grayscale(.9)
+    top: 0
+    left: 0
+    width: 0
+    height: 0
+    &::after
+      content: ""
+      position: absolute
+      z-index: 1
+      bottom: 0
+      left: 0
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 90%)
+      width: 100%
+      height: 50px
+    &.enabled
+      width: 350px
+      height: 225px
+      opacity: 1
+      margin-top: 0
+    & > div
+      zoom: .7
+    h1, h2, h3, h4, h5, h6
+      margin: 1rem 0
+    h1
+      font-size: 3rem
+    h2
+      font-size: 2.85rem
+    h3
+      font-size: 2.7rem
+    h4
+      font-size: 2.5rem
+    h5
+      font-size: 2.35rem
+    h6
+      font-size: 2.1rem
+    .title
+      zoom: 1.4
+      font-weight: bold
+      margin-bottom: .5rem

@@ -1,0 +1,5 @@
+{% if page.url == '/wiki/' %}
+<h1>Digital garden</h1>
+{% else %}
+<h1>{{ page.title | escape }}</h1>
+{% endif %}

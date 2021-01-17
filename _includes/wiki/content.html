@@ -1,0 +1,10 @@
+<div class="content">
+
+  {% for page in site.pages %}
+  {% assign page_link = page.title | prepend: '[[' | append: ']]' %}
+  {% assign link_html = page.url | prepend: '<a href="' | append: '">' | append: page.title | append: '</a>' %}
+  {% assign content = content | replace: page_link, link_html %}
+  {% endfor %}
+
+  {{ content }}
+</div>

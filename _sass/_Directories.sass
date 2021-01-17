@@ -1,0 +1,45 @@
+
+// Directories
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.directories
+  margin: 0
+  padding-top: 1.25rem
+  border-top: 4px solid $color-quaternary
+
+  h2
+    font-size: 2.7rem
+    margin: 0 0 .75rem
+
+  a[href^="/wiki"]
+    color: $color-secondary
+    font-family: $paragraph
+    max-width: 100%
+    &:hover
+      background-color: #efefef
+    &::before
+      content: ''
+      display: inline-block
+      height: 16px
+      width: 16px
+      background-size: cover
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABmJLR0QA/wD/AP+gvaeTAAABGUlEQVRoge2aQY6CQBREny70EOo95lDq7dQbjLrSswzuZxa0BrHJkNB2F6ZeUhuipF4+6QUfMMakYg5sgRNwA3575hb+swn3kGABXOkv0ZVLuFdR5qSRaUoVndQ2Umpo1lkNWpw7Sg3JMatBi6qj1JBUWQ1apJbJlc7TtXSxFHmcrpNw4RO4Al+fJAT14/cyvh2wLFiqL0tgT+R0bQuNQebOiufuP7FHbpK71UCe+k9LtXgXFlLHQupYSB0LqWMhdSykjoXUsZA6FlLHQupYSB0LqWMhdabUm7AmY3tZ36SC16XxPvJDRVbAgcg6ZcP/K7+xZA31wvUiUCbFnnV2H99i5FLRT3JmYWRH3vPtQupUwHfo/JiMUecPJ8O4EkCJoRkAAAAASUVORK5CYII=')
+      margin: 0 5px -1px 2px
+    span
+      padding-left: .5rem
+      opacity: .25
+
+  .row
+    .item,
+    .none
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      font-size: 1.7rem
+      margin-bottom: .5rem
+      padding: 0 0 0 1rem
+    .none
+      font-style: italic
+      opacity: .4
+    .item + .none
+      display: none

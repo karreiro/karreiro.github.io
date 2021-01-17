@@ -1,0 +1,22 @@
+<ul class="breadcrumb">
+
+  {% assign splitted_url_parts = page.url | split: '/' %}
+  {% assign endIndex = splitted_url_parts.size | minus: 1 %}
+
+  {% for i in (1..endIndex) %}
+
+  {% assign current_part = splitted_url_parts[i] %}
+  {% assign current_breadcrumb = next_prepender | append: '/' | append: current_part | append: '/' %}
+  {% assign next_prepender = next_prepender | append: '/' | append: current_part %}
+
+  {% for page in site.pages %}
+  {% if current_breadcrumb == page.url %}
+  <li>
+    <a href="{{ site.baseurl }}{{page.url}}">
+      {{ page.url | split: '/' | last | url_decode }}
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>

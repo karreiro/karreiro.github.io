@@ -1,0 +1,15 @@
+
+// Breadcrumb
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ul.breadcrumb
+  display: block
+  margin: 0
+  li
+    display: inline-block
+    &::before
+      content: '/'
+  li:last-child
+      a
+        pointer-events: none
+        color: $color-secondary
