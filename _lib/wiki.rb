@@ -16,10 +16,12 @@ class Wiki
   end
 
   def index_content
+    today = Time.now.strftime("%Y-%m-%d")
     <<~JEKYLL
       ---
       layout: wiki
       title: #{name}
+      last_updated: #{today}
       ---
     JEKYLL
   end
