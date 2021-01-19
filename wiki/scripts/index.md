@@ -1,7 +1,9 @@
 ---
 layout: wiki
 title: Scripts
-last_updated: 2021-01-17
+last_updated: 2021-01-19
 ---
 
-// TODO: Init the scripts page.
+Here's were I keep some useful scripts.
+
+The most useful one is the [~/.zshrc](./my-zshrc) - my main minimalist script ;-)

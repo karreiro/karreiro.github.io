@@ -19,12 +19,7 @@ https://wiki.anarchist.work
 https://maggieappleton.com/garden-history
 
 ===
-sinappets
 
-https://gist.github.com/karreiro/cb205a2eba404210e01cf3465e75687c
-add others too
-
-===
 podcasts
 
 https://twitter.com/eggheadio
@@ -39,7 +34,7 @@ dmn cli
 ===
 work
 String filePath = "/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dmn/kie-wb-common-dmn-webapp-kogito-runtime/src/test/resources/org/kie/workbench/common/dmn/showcase/client/backward/compatibility/" + directory + "-expected/" + file;
-//        final String expected = loadResource(filePath);
+// final String expected = loadResource(filePath);
 
         try {
             File fnew=new File(filePath);
@@ -49,12 +44,7 @@ String filePath = "/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dm
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-        
-==
-integration test
-/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dmn/kie-wb-common-dmn-webapp-kogito-runtime
-mvn clean install -Pkogito -Dintegration-tests=true
 
-==
+===
+
 to read https://macwright.com/2021/01/15/rust.html
