@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Raw
-last_updated: 2021-01-19
+last_updated: 2021-01-20
 ---
 
 ===
@@ -48,3 +48,12 @@ String filePath = "/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dm
 ===
 
 to read https://macwright.com/2021/01/15/rust.html
+
+===
+
+finances
+
+=> arnaldo https://karreiro.com/2018/09/25/financial-bot.html
+
+===
+
