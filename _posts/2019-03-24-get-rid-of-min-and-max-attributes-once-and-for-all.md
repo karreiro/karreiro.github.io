@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Get rid of \"min\" and \"max\" HTML 5 attributes once and for all"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-03-24 00:00:00 -0300
 ---
 

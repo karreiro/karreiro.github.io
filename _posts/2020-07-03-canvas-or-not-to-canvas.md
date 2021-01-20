@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Canvas or not to Canvas?"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-07-03 00:00:00 -0300
 ---
 

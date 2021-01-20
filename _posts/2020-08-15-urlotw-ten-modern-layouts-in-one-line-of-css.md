@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[URLOTW] Ten modern layouts in one line of CSS"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-08-15 00:00:00 -0300
 ---
 

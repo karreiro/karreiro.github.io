@@ -1,6 +1,7 @@
 ---
 layout:    post
 title:     "Is WebAssembly a game changer?"
+permalink: /:year/:month/:day/:title:output_ext
 date:      2020-06-02 00:00:00 -0300
 ---
 

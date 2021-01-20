@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[URLOTW] The System Design Primer"
+permalink: /:year/:month/:day/:title:output_ext
 date: 2020-01-12 00:00:00 -0300
 ---
 

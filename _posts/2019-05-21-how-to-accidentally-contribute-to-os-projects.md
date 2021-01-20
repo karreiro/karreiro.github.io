@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to accidentally contribute to OS projects"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-05-21 00:00:00 -0300
 ---
 

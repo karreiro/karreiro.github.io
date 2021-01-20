@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[URLOTW] Rust sokoban"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-08-07 00:00:00 -0300
 ---
 

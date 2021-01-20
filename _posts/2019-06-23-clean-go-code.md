@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Clean Go code"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-23 00:00:00 -0300
 ---
 

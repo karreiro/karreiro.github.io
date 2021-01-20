@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "3 habits of highly effective programmers"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-16 00:00:00 -0300
 ---
 

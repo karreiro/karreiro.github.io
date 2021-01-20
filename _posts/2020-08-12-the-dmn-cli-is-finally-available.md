@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The DMN-cli is finally available"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-08-12 00:00:00 -0300
 highlight: true
 image: "/assets/the-best-dmn-command-line-interface-preview.png"

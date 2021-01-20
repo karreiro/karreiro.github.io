@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to introduce your app to users"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-07-17 00:00:00 -0300
 highlight: true
 image: "/assets/how-to-introduce-an-app-for-users-preview.png"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[pt-br] Crie seu blog com o Jekyll em 4 minutos.. (ou menos)"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2017-10-22 00:00:00 -0300
 ---
 

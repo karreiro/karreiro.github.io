@@ -1,6 +1,7 @@
 ---
 layout:    post
 title:     "DMN editor opens 1.1 and 1.3 assets now"
+permalink: /:year/:month/:day/:title:output_ext
 date:      2020-11-17 00:00:00 -0300
 ---
 

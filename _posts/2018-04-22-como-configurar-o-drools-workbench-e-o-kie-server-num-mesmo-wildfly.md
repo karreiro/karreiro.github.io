@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[pt-br] Como configurar o Drools Workbench e o KIE Server num mesmo WildFly"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2018-04-22 00:00:00 -0300
 ---
 

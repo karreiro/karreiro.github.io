@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Less code == less tests"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-01-28 00:00:00 -0300
 ---
 

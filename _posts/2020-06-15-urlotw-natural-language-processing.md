@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[URLOTW] Natural Language Processing"
+permalink: /:year/:month/:day/:title:output_ext
 date: 2020-06-15 00:00:00 -0300
 ---
 

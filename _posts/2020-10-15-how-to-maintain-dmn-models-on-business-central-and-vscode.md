@@ -1,6 +1,7 @@
 ---
 layout:    post
 title:     "How to maintain DMN models on Business Central and VSCode"
+permalink: /:year/:month/:day/:title:output_ext
 date:      2020-10-15 00:00:00 -0300
 ---
 

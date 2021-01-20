@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[URLOTW] The JSON format"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-05-25 00:00:00 -0300
 ---
 

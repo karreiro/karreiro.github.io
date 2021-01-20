@@ -1,6 +1,7 @@
 ---
 layout:    post
 title:     "DMN editor supports multiple diagrams now"
+permalink: /:year/:month/:day/:title:output_ext
 date:      2020-10-13 00:00:00 -0300
 highlight: true
 image:     "/assets/dmn-editor-supports-multiple-diagrams-now-preview.png"

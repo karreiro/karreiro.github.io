@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Financial Bot"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2018-09-25 00:00:00 -0300
 ---
 

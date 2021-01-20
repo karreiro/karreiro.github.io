@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The DMN Data Types saga"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-09-30 00:00:00 -0300
 ---
 

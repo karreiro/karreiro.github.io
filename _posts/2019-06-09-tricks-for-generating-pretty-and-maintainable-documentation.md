@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tricks for generating pretty and maintainable Documentation"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-09 00:00:00 -0300
 ---
 

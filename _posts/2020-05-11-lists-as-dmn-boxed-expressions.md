@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lists as DMN boxed expressions"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-05-11 00:00:00 -0300
 ---
 

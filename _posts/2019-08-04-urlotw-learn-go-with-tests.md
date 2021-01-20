@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[URLOTW] Learn Go with tests"
+permalink: /:year/:month/:day/:title:output_ext
 date: 2019-08-04 00:00:00 -0300
 ---
 

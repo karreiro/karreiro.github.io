@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Building a browser game - Chapter 1: The DOM performance"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-09-15 00:00:00 -0300
 ---
 

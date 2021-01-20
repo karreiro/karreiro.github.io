@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The most-viewed posts in 2020"
+permalink: /:year/:month/:day/:title:output_ext
 date: 2021-01-01 00:00:00 -0300
 ---
 

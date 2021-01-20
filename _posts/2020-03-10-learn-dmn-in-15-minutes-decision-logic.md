@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[Learn DMN in 15 minutes] Decision logic"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-03-10 00:00:00 -0300
 ---
 

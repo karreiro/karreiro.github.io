@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is gRPC?"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-07-06 00:00:00 -0300
 ---
 

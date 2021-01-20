@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Boosting video fps using AI"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-08-14 00:00:00 -0300
 ---
 

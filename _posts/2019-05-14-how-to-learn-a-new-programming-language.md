@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to learn a new programming language"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-05-14 00:00:00 -0300
 ---
 

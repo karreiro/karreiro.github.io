@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Here's a quick way to efficiently share code snippets"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-04-07 00:00:00 -0300
 ---
 

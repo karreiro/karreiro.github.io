@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to call a DMN model via gRPC?"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-07-14 00:00:00 -0300
 ---
 

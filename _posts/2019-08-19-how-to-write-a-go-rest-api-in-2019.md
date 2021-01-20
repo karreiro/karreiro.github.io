@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to write a Go REST API in 2019"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2019-08-19 00:00:00 -0300
 ---
 

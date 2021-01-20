@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[DMN pro-tip] BKM nodes"
+permalink: /:year/:month/:day/:title:output_ext
 date:   2020-01-20 00:00:00 -0300
 ---
 

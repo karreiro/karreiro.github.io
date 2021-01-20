@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[URLOTW] Custom game engines: A Small Study"
+permalink: /:year/:month/:day/:title:output_ext
 date: 2020-04-18 00:00:00 -0300
 ---
 
