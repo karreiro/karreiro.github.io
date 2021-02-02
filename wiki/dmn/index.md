@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: DMN
-last_updated: 2021-01-21
+last_updated: 2021-02-02
 ---
 
-// TODO: Init the DMN page.
+Here's where I keep DMN related content.
