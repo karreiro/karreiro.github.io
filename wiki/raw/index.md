@@ -61,3 +61,10 @@ https://iconduck.com/search?query=folder
 =======
 To read https://jvns.ca/blog/2021/01/23/firecracker--start-a-vm-in-less-than-a-second/
 ]
+
+===
+
+Fix mac keyboard
+
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 1 defaults write -g ApplePressAndHoldEnabled -bool false
