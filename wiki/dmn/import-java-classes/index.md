@@ -70,3 +70,7 @@ In the first step, we're explaining to users how the import feature works (the i
 - Rely on [patternfly-v4-tooltip](https://www.patternfly.org/v4/components/tooltip) for showing long FQNs (when users hover the Java class card)
 
 ![Prototype 4.1](4-1-tooltip.png)
+
+- Rely on [patternfly-v4-clipboardcopy](https://www.patternfly.org/2020.04/documentation/react/components/clipboardcopy) for allowing users to copy FQNs
+
+![Prototype 4.2](4-2-clipboardcopy.png)
