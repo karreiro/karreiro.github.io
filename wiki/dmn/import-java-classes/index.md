@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Import Java classes as DMN Data Types (proposal)
-last_updated: 2021-02-02
+last_updated: 2021-02-08
 ---
 
 This page is a proposal for [KOGITO-4269](https://issues.redhat.com/browse/KOGITO-4269), and it's fully based on [patternfly.org/v4](https://www.patternfly.org/v4/) components.
@@ -63,3 +63,10 @@ In the first step, we're explaining to users how the import feature works (the i
 - I'm not sure if we _need_ this step. I personally believe it's nice to have a final step like this representing the concluded work
 
 ![Prototype 3.3](3-review.png)
+
+
+#### == Updates ==
+
+- Rely on [patternfly-v4-tooltip](https://www.patternfly.org/v4/components/tooltip) for showing long FQNs (when users hover the Java class card)
+
+![Prototype 4.1](4-1-tooltip.png)
