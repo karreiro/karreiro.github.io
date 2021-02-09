@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: My .zshrc
-last_updated: 2021-01-19
+last_updated: 2021-02-09
 ---
 
 ```
@@ -45,6 +45,7 @@ alias wiki='cd /Users/karreiro/Projects/blog/wiki'
 # === Aliases - actions (rb) ===
 alias git-date='ruby /Users/karreiro/Dropbox/Work/git-date.rb'
 alias git-raw='ruby /Users/karreiro/Dropbox/Work/git-raw.rb'
+alias git-wiki='ruby /Users/karreiro/Dropbox/Work/git-wiki.rb'
 alias temperature='ruby /Users/karreiro/Dropbox/Work/temperature.rb'
 alias bitcoin='ruby /Users/karreiro/Dropbox/Work/bitcoin.rb'
 alias killjava='ruby /Users/karreiro/Dropbox/Work/kill_java.rb'
@@ -71,6 +72,7 @@ alias raw='ia /Users/karreiro/Projects/blog/wiki/raw/index.md'
 
 # === Aliases - Java env
 alias mci='mvn clean install -T 6 -Denforcer.skip=true -Dcheckstyle.skip=true -DskipTests=true -Dgwt.compiler.skip=true && beep'
+alias mcishh='mvn clean install -T 6 -Denforcer.skip=true -Dcheckstyle.skip=true -DskipTests=true -Dgwt.compiler.skip=true | grep " BUILD "'
 alias mcs='mvn clean install -Denforcer.skip=true -Dcheckstyle.skip=true -DskipTests=true && beep'
 alias mck='mvn clean install -Pkogito -Denforcer.skip=true -Dcheckstyle.skip=true -DskipTests=true && beep'
 
@@ -123,7 +125,7 @@ dmn-start() {
 # === Functions - Java env - build VSCode plugin for DMN ===
 dmn-build-vsix() {
 
-  # SHHH! zsh
+  # SHHH! zsh 
   setopt localoptions rmstarsilent
 
   puts " Build DMN .vsix file"
@@ -154,7 +156,7 @@ dmn-build-vsix() {
 # === Functions - Java env - build VSCode plugin for SceSim ===
 scesim-build-vsix() {
 
-  # SHHH! zsh
+  # SHHH! zsh 
   setopt localoptions rmstarsilent
 
   puts " Build SceSim .vsix file"
@@ -167,7 +169,7 @@ scesim-build-vsix() {
   mvn clean install -DskipTests -Denforcer.skip -pl drools-wb-screens/drools-wb-scenario-simulation-editor/drools-wb-scenario-simulation-editor-kogito-runtime -am -T 2 -B
 
   puts "(3/5) - Build SceSim .vsix file - Set environment variables"
-  export EXTERNAL_RESOURCE_PATH__scesimEditor=/Users/karreiro/Projects/forks/drools-wb/drools-wb-screens/drools-wb-scenario-simulation-editor/drools-wb-scenario-simulation-editor-kogito-runtime/target/drools-wb-scenario-simulation-editor-kogito-runtime
+  export EXTERNAL_RESOURCE_PATH__scesimEditor=/Users/karreiro/Projects/forks/drools-wb/drools-wb-screens/drools-wb-scenario-simulation-editor/drools-wb-scenario-simulation-editor-kogito-runtime/target/drools-wb-scenario-simulation-editor-kogito-runtime 
 
   puts "(4/5) - Build SceSim .vsix file - Build Kogito Tooling"
   cd /Users/karreiro/Projects/forks/kogito-tooling
@@ -182,49 +184,56 @@ scesim-build-vsix() {
 }
 
 # === Functions - Java env - build intellisense ensemble ===
-intellisense-build() {
-  git checkout CLIENT_SIDE_FEEL-gwt29-stable-2
-  mci
+_build() {
+  # git push origin CLIENT_SIDE_FEEL-wip-9
+  puts "$1"
+  cd "/Users/karreiro/Projects/forks/$1"
+  git checkout master
+  git fetch upstream
+  git reset upstream/master --hard
+  mcs
 }
-intellisense-build-all() {
-  forks
+build-all() {
 
+  # ===
+  # caponetto/AF-1799-master
   # origin ~> https://github.com/treblereel/gwt-bigmath
-  # echo "\n\n\n(1/7) >>> Build gwt-bigmath"
-  cd gwt-bigmath
-  # intellisense-build
-
   # origin ~> https://github.com/aranega/antlr4-gwt
-  # echo "\n\n\n(2/7) >>> Build antlr4-gwt"
-  # cd ../antlr4-gwt
-  # intellisense-build
-
   # origin ~> https://github.com/Rikkola/antlr4-c3-gwt
-  # echo "\n\n\n(3/7) >>> Build antlr4-c3-gwt"
-  # cd ../antlr4-c3-gwt
-  # intellisense-build
+  # ===
 
-  echo "\n\n\n(4/7) >>> Build droolsjbpm-build-bootstrap"
-  cd ../droolsjbpm-build-bootstrap
-  intellisense-build
+  _build "droolsjbpm-knowledge"
+  _build "droolsjbpm-build-bootstrap"
+  _build "kie-soup"
+  _build "appformer"
+  _build "drools"
+  _build "kie-wb-common"
 
-  echo "\n\n\n(5/7) >>> Build appformer"
-  cd ../appformer
-  intellisense-build
+  # _build "gwt-bigmath"              # not ours
+  # _build "antlr4-gwt"               # not ours
+  # _build "antlr4-c3-gwt"            # check Toni's repo
+  # _build "droolsjbpm-build-bootstrap" # -
+  # _build "drools"                     # -
+  # _build "appformer"                  # -
+  # _build "kie-wb-common"              # -
 
-  echo "\n\n\n(6/7) >>> Build drools"
-  cd ../drools
-  intellisense-build
+  # _build "lienzo-core"                # caponetto only
+  # _build "lienzo-tests"               # caponetto only
+  # _build "droolsjbpm-knowledge"       # caponetto only
+  # _build "droolsjbpm-integration"     # caponetto only
 
-  echo "\n\n\n(7/7) >>> DMN"
-  cd ../kie-wb-common
-  intellisense-build
+  # cd "/Users/karreiro/Projects/forks/drools/kie-dmn"
+  # mcs
+  # cd "/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dmn"
+  # mci
+  # cd "/Users/karreiro/Projects/forks/kie-wb-common/kie-wb-common-dmn/kie-wb-common-dmn-webapp-standalone"
+  # mcs
 }
 
 # === Functions - Git env - checks what was pushed during some period ===
 #               - Usage: what-did-we-deliver "2020-07-06" "2020-07-26"
 what-did-we-deliver-here() {
-  # SHHH! zsh
+  # SHHH! zsh 
   setopt localoptions rmstarsilent
 
   echo "=> $1"
@@ -232,7 +241,7 @@ what-did-we-deliver-here() {
   git checkout -b what-did-we-deliver > /dev/null 2>&1
   git fetch upstream > /dev/null 2>&1
   git reset upstream/master --hard > /dev/null 2>&1
-  git log --pretty=format:"%an (%ar): %s" --after="$2" --until="$3" --author="David|Alex|Myriam|Guilherme Car|Daniel |Handrey|Jaime|Kirill|Roger|Toni|Valentino|Wagner|Yeser|Dominik|Jan|Jozef|Lubomir|Liz|Heena|Stetson"
+  git log --pretty=format:"%an (%ar): %s" --after="$2" --until="$3" --extended-regexp --author="David|Alex|Myriam|Guilherme Car|Daniel |Handrey|Jaime|Kirill|Roger|Toni|Valentino|Wagner|Yeser|Dominik|Jan|Jozef|Lubomir|Liz|Heena|Stetson"
 }
 what-did-we-deliver() {
   what-did-we-deliver-here "appformer" "$1" "$2"
