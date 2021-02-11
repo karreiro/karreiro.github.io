@@ -68,3 +68,8 @@ Fix mac keyboard
 
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1 defaults write -g ApplePressAndHoldEnabled -bool false
+
+
+===
+
+https://en.wikipedia.org/wiki/System_on_a_chip#:~:text=A%20system%20on%20a%20chip%20(SoC%20%2F%CB%8C%C9%9Bs%CB%8C,computer%20or%20other%20electronic%20system.&text=Additionally%2C%20SoCs%20may%20use%20separate%20wireless%20modems.
