@@ -3,7 +3,7 @@ layout:    post
 title:     "DMN editor supports multiple diagrams now"
 permalink: /:year/:month/:day/:title:output_ext
 date:      2020-10-13 00:00:00 -0300
-highlight: true
+highlight: false
 image:     "/assets/dmn-editor-supports-multiple-diagrams-now-preview.png"
 abstract:  "We can finally break the DMN graph into many sub-digrams. It's all about simplifying how we visually express decisions."
 ---
