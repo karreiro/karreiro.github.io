@@ -73,3 +73,5 @@ defaults write -g KeyRepeat -int 1 defaults write -g ApplePressAndHoldEnabled -b
 ===
 
 https://en.wikipedia.org/wiki/System_on_a_chip#:~:text=A%20system%20on%20a%20chip%20(SoC%20%2F%CB%8C%C9%9Bs%CB%8C,computer%20or%20other%20electronic%20system.&text=Additionally%2C%20SoCs%20may%20use%20separate%20wireless%20modems.
+
+https://users.rust-lang.org/t/mxhkd-a-modal-key-daemon/26916
