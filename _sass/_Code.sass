@@ -3,15 +3,15 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 code
-  background: #F4F4F4
+  background: #F9F8F8
   border-radius: .4rem
-  font-size: 1.9rem
+  font-size: 1.75rem
   margin: 0 .2rem
   padding: .2rem .5rem
   white-space: nowrap
 
 pre
-  background: #F4F4F4
+  background: #F9F8F8
   border-left: .3rem solid $color-primary
   overflow-y: hidden
 
@@ -22,85 +22,141 @@ pre
     padding: 1rem 1.5rem
     white-space: pre
 
-.hljs
-  display: block
-  overflow-x: auto
-  padding: 0.5em
-  background: #fff
+.highlight
+  table
+    td
+      padding: 5px
 
-.hljs
-  display: block
-  overflow-x: auto
-  padding: 0.5em
-  color: #333
-  background: #f8f8f8
+    pre
+      margin: 0
 
-.hljs-comment,
-.hljs-quote
-  color: #998
-  font-style: italic
+  .cm
+    color: #999988
+    font-style: italic
 
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst
-  color: #333
-  font-weight: bold
+  .cp
+    color: #999999
+    font-weight: bold
 
-.hljs-number,
-.hljs-literal,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag .hljs-attr
-  color: #008080
+  .c1
+    color: #999988
+    font-style: italic
 
-.hljs-string,
-.hljs-doctag
-  color: #d14
+  .cs
+    color: #999999
+    font-weight: bold
+    font-style: italic
 
-.hljs-title,
-.hljs-section,
-.hljs-selector-id
-  color: #900
-  font-weight: bold
+  .c, .ch, .cd, .cpf
+    color: #999988
+    font-style: italic
 
-.hljs-subst
-  font-weight: normal
+  .err
+    color: #a61717
+    background-color: #e3d2d2
 
-.hljs-type,
-.hljs-class .hljs-title
-  color: #458
-  font-weight: bold
+  .gd
+    color: #000000
+    background-color: #ffdddd
 
-.hljs-tag,
-.hljs-name,
-.hljs-attribute
-  color: #000080
-  font-weight: normal
+  .ge
+    color: #000000
+    font-style: italic
 
-.hljs-regexp,
-.hljs-link
-  color: #009926
+  .gr
+    color: #aa0000
 
-.hljs-symbol,
-.hljs-bullet
-  color: #990073
+  .gh
+    color: #999999
 
-.hljs-built_in,
-.hljs-builtin-name
-  color: #0086b3
+  .gi
+    color: #000000
+    background-color: #ddffdd
 
-.hljs-meta
-  color: #999
-  font-weight: bold
+  .go
+    color: #888888
 
-.hljs-deletion
-  background: #fdd
+  .gp
+    color: #555555
 
-.hljs-addition
-  background: #dfd
+  .gs
+    font-weight: bold
 
-.hljs-emphasis
-  font-style: italic
+  .gu
+    color: #aaaaaa
 
-.hljs-strong
-  font-weight: bold
+  .gt
+    color: #aa0000
+
+  .kc, .kd, .kn, .kp, .kr
+    color: #000000
+    font-weight: bold
+
+  .kt
+    color: #445588
+    font-weight: bold
+
+  .k, .kv
+    color: #000000
+    font-weight: bold
+
+  .mf, .mh, .il, .mi, .mo, .m, .mb, .mx
+    color: #009999
+
+  .sb, .sc, .sd, .s2, .se, .sh, .si, .sx
+    color: #d14
+
+  .sr
+    color: #009926
+
+  .s1
+    color: #d14
+
+  .ss
+    color: #990073
+
+  .s, .sa, .dl
+    color: #d14
+
+  .na
+    color: #008080
+
+  .bp
+    color: #999999
+
+  .nb
+    color: #0086B3
+
+  .nc
+    color: #445588
+    font-weight: bold
+
+  .no
+    color: #008080
+
+  .nd
+    color: #3c5d5d
+    font-weight: bold
+
+  .ni
+    color: #800080
+
+  .ne, .nf, .fm, .nl
+    color: #990000
+    font-weight: bold
+
+  .nn
+    color: #555555
+
+  .nt
+    color: #000080
+
+  .vc, .vg, .vi, .nv, .vm
+    color: #008080
+
+  .ow, .o
+    color: #000000
+    font-weight: bold
+
+  .w
+    color: #bbbbbb
