@@ -4,7 +4,7 @@ title: "How the new FEEL code-completion works under the hoods"
 date: 2021-03-30 00:00:00 +0000
 ---
 
-Context-aware code-completion is one of the most important features an IDE can provide to speed-up coding, reduce typos and avoid other common mistakes. **Kogito Tooling 0.8.6** release will bring enhanced code-completion for Literal FEEL expressions:
+Context-aware code-completion is one of the most important features an IDE can provide to speed-up coding, reduce typos and avoid other common mistakes. **Kogito Tooling 0.9.0** release will bring enhanced code-completion for Literal FEEL expressions:
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/VXENjnEbwO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Look how it helps me realize that I need to use the `string(from)` function if I want to concatenate something to my string. Let's check these two examples of FEEL expressions:
