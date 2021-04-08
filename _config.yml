@@ -2,7 +2,7 @@ title: Guilherme Carreiro
 author: Guilherme Carreiro
 email: karreiro@gmail.com
 description: >
-  Hi, I'm Guilherme Carreiro. Check my activity log :-)
+  Hi, I’m Guilherme Carreiro, aka karreiro :-)
 baseurl: ""
 url: "http://karreiro.com"
 google_analytics: "UA-108493780-1"
@@ -10,8 +10,7 @@ twitter_username: karreiro_
 github_username: karreiro
 markdown: kramdown
 permalink: pretty
-disqus:
-  shortname: karreiro
+highlighted_posts: false
 exclude:
   - Gemfile*
   - Rakefile
