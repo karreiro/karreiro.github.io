@@ -4,7 +4,7 @@
       Posts
     </a>
     {% for page in site.pages %}
-    {% if page.name == 'about.md' or page.name == 'talks.md' %}
+    {% if page.name == 'about.md' or page.name == 'talks.md' or page.name == 'wiki.md' %}
     <a href="{{ page.url | relative_url }}">
       {{ page.title | escape }}
     </a>
