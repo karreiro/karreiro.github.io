@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: DMN global actions (ideas)
-last_updated: 2021-03-15
+last_updated: 2021-04-08
 ---
 
 ### Current state of editors
