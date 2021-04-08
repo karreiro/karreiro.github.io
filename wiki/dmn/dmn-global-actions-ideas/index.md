@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: DMN Global actions (ideas)
+title: DMN global actions (ideas)
 last_updated: 2021-03-15
 ---
 
