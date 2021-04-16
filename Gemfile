@@ -2,9 +2,9 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages', '209'
+gem 'github-pages', '214'
 gem 'jekyll', '3.9.0'
-gem 'nokogiri', '>= 1.11.0.rc4'
+gem 'nokogiri', '>= 1.11.2'
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '0.15.1'
