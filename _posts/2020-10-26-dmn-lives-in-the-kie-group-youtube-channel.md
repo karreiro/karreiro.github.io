@@ -1,8 +1,8 @@
 ---
-layout:    post
-title:     "DMN lives in the KIE Group YouTube channel"
+layout: post
+title: "DMN lives in the KIE Group YouTube channel - Part 1"
 permalink: /:year/:month/:day/:title:output_ext
-date:      2020-10-26 00:00:00 -0300
+date: 2020-10-26 00:00:00 -0300
 ---
 
 The [KIE YouTube channel](https://www.youtube.com/channel/UCUjeymTM-TrwHs36388VRbw) is regularly posting quite interesting content!
@@ -18,6 +18,3 @@ Tomorrow (October 27th), [Edson Tirelli](https://blog.kie.org/all?search_authors
 I’ve just activated the YouTube reminder because I won’t miss it.
 
 Joy there as well :-)
-
-
-
