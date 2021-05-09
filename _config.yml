@@ -5,7 +5,6 @@ description: >
   Hi, I’m Guilherme Carreiro, aka karreiro :-)
 baseurl: ""
 url: "http://karreiro.com"
-google_analytics: "UA-108493780-1"
 twitter_username: karreiro_
 github_username: karreiro
 markdown: kramdown
