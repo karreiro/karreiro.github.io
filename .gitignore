@@ -8,3 +8,6 @@ _site
 .jekyll-metadata
 .DS_Store
 
+# Local files
+notes
+documents
