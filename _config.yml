@@ -23,43 +23,43 @@ talks:
     color: "#FBAA18"
     file_name: "2013-javascript-the-right-way.pdf"
 
-  - title: "JavaScript de Qualidade: Hoje, Amanhã e Sempre"
+  - title: "High-quality JavaScript"
     conference: "DevCamp / TDC São Paulo"
     year: 2014
     color: "#387EA4"
     file_name: "2014-qualidade-js.pdf"
 
-  - title: "Metaprogramação<br />na prática"
+  - title: "Metaprogramming in practice<br />with Ruby"
     conference: "TDC Florianópolis"
     year: 2015
     color: "#626A8A"
     file_name: "2015-tdc-metaprogramacao.pdf"
 
-  - title: "DSLs em Ruby"
+  - title: "DSLs with Ruby"
     conference: "TDC São Paulo"
     year: 2015
     color: "#CA6063"
     file_name: "2015-dsls-ruby.pdf"
 
-  - title: "Action Cable<br />em Ação"
+  - title: "Action Cable<br />in Action"
     conference: "TDC São Paulo / Rupy"
     year: 2016
     color: "#5E327C"
     file_name: "2016-actioncable.pdf"
 
-  - title: "5 pilares para uma aplicação Java Web bem-sucedida"
+  - title: "5 pillars of a successful Java web application"
     conference: "Red Hat Forum / JUG Campinas"
     year: 2017
     color: "#A73636"
     file_name: "2017-5pilares.pdf"
 
-  - title: "Design Patterns"
+  - title: "Design Patterns 101"
     conference: "Campus Party"
     year: 2018
     color: "#88304E"
     file_name: "2018-design-patterns.pdf"
 
-  - title: "Mantendo seu monolito vivo em um ambiente de alta disponibilidade"
+  - title: "Keeping your monolith alive in a high-availability environment"
     conference: "TDC Porto Alegre"
     year: 2019
     color: "#0f5855"
@@ -70,3 +70,9 @@ talks:
     year: 2020
     color: "#af1d60"
     file_name: "2020-dmn-for-developers.pdf"
+
+  - title: "How to play<br />with DMN"
+    conference: "Kie community live"
+    year: 2021
+    color: "#231c33"
+    file_name: "2021-how-to-play-with-dmn.pdf"
