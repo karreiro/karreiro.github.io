@@ -4,7 +4,7 @@ title: "[URLOTW] A Brief History & Ethos of the Digital Garden"
 date: 2021-01-17 00:00:00 -0300
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL for you :-)
+<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
 
 This week the winner is **A Brief History & Ethos of the Digital Garden**:
 [maggieappleton.com/garden-history](https://maggieappleton.com/garden-history).
