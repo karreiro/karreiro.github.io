@@ -5,7 +5,13 @@ layout: default
   <a href="/about" class="profile-drawing-frame">
     <img alt="profile drawing" class="profile-drawing" src="/assets/profile-drawing.png" />
   </a>
+
   <h1>Guilherme Carreiro</h1>
+
+  {% if page.name == 'archive.md' %}
+  <h2>Welcome to the archive. Browse at your own risk!</h2>
+  {% endif %}
+
   <hr />
   {% if site.highlighted_posts %}
   {% include highlights.html %}

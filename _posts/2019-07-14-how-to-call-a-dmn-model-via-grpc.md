@@ -3,6 +3,7 @@ layout: post
 title:  "How to call a DMN model via gRPC?"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-07-14 00:00:00 -0300
+archived: true
 ---
 
 Some days ago, I shared my impressions about gRPC and how I see it as an appealing alternative, compared to the HTTP/1.1 + JSON standard.

@@ -3,6 +3,7 @@ layout: post
 title:  "The Included Models saga [2]"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-03-31 00:00:00 -0300
+archived: true
 ---
 
 My efforts for including external models in DMN files keeps evolving and getting even more challenging. Now, I users can _include_ other models into a DMN model:

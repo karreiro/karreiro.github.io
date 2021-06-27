@@ -3,6 +3,7 @@ layout: post
 title:  "The DMN Data Types saga"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-09-30 00:00:00 -0300
+archived: true
 ---
 
 In the last months, I’ve been investing most of my time on new features for the Business Central - DMN editor. It has a considerable number of features, but these days I’m mainly focused on getting a better UX into the Data Types tab.

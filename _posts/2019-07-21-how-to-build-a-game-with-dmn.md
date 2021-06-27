@@ -3,6 +3,7 @@ layout: post
 title:  "How to build a game with DMN"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-07-21 00:00:00 -0300
+archived: true
 ---
 
 Some days ago, I showed a compelling use case of a DMN model as the brain of my financial bot. He still, eventually, gives me some advice to save money.

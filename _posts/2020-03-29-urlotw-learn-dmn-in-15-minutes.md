@@ -3,6 +3,7 @@ layout: post
 title: "[URLOTW] Learn DMN in 15 minutes"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2020-03-29 00:00:00 -0300
+archived: true
 ---
 
 <span class="bg-highlight">URLOTW</span> or URL of the week or Uniform Resource Locator of the week is a kind of post where I share a relevant URL for you :-)

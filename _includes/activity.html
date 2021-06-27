@@ -1,17 +1,21 @@
 <ul class="activity">
   {% for post in site.posts %}
+  {% if post.archived != true or page.name == 'archive.md' %}
   <li class="row">
-
     <div class="column column-20">
       <span>{{ post.date | date: '%b %-d, %Y' }}</span>
     </div>
-
     <div class="column">
       <a href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
       </a>
     </div>
-
   </li>
+  {% endif %}
   {% endfor %}
 </ul>
+{% if page.name != 'archive.md' %}
+<a class="view-archived-posts" href="/archive">
+  <span>View archived posts</span>
+</a>
+{% endif %}

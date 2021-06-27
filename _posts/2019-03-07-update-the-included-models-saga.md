@@ -3,6 +3,7 @@ layout: post
 title:  "The Included Models saga"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-03-07 00:00:00 -0300
+archived: true
 ---
 
 In the last three weeks, I've been investing most of my time in the DMN editor, and the "Included Models" feature is the special part of the work I did there.

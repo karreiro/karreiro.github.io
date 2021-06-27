@@ -3,6 +3,7 @@ layout: post
 title:  "[pt-br] Por que você *deveria* criar um blog agora"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2017-10-19 00:00:00 -0300
+archived: true
 ---
 
 Claro que você não **deveria** fazer nada, quem sou eu pra ditar regras? Eu estava só passando...

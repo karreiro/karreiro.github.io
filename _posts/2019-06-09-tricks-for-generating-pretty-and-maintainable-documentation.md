@@ -3,6 +3,7 @@ layout: post
 title:  "Tricks for generating pretty and maintainable Documentation"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-09 00:00:00 -0300
+archived: true
 ---
 
 This week I invested some time adding documentation support for DMN files. Soon, Business Central users will be able to generate documentation describing every detail about their DMN files.

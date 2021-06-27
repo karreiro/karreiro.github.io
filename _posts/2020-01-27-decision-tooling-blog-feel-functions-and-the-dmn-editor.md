@@ -3,6 +3,7 @@ layout: post
 title:  "[Decision Tooling blog] FEEL functions and the DMN editor"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-01-27 00:00:00 -0300
+archived: true
 ---
 
 I just posted something interesting in the blog of my team at Red Hat.

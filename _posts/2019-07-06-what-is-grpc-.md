@@ -3,6 +3,7 @@ layout: post
 title:  "What is gRPC?"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-07-06 00:00:00 -0300
+archived: true
 ---
 
 Micro-services architecture changed the way the industry thinks about scalability, deployment, and programming models. That’s a fact. We’re a step ahead now, thinking about tracing, resilience, elasticity, and high performance.

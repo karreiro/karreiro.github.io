@@ -3,6 +3,7 @@ layout: post
 title:  "Lists as DMN boxed expressions"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-05-11 00:00:00 -0300
+archived: true
 ---
 
 Literal expressions, Decision Tables, Contexts, Relations, Functions, and Invocations are quite powerful boxed expressions already. However, now our editor supports Lists as a new boxed expression type.

@@ -3,6 +3,7 @@ layout: post
 title:  "[pt-br] Como configurar o Drools Workbench e o KIE Server num mesmo WildFly"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2018-04-22 00:00:00 -0300
+archived: true
 ---
 
 Talvez você não saiba, mas estou trabalhando na evolução do Drools Workbench [1] nos últimos dois anos. É bastante recompensador e se você também quiser contribuir para esse projeto pode começar por [aqui](https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/master/README.md).

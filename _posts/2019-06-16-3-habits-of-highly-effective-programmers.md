@@ -3,6 +3,7 @@ layout: post
 title:  "3 habits of highly effective programmers"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-16 00:00:00 -0300
+archived: true
 ---
 
 There's an infinity of content describing how highly effective professionals work, how the perfect daily routine is, and how you can to finish your tasks faster by applying some technique. This kind of content is useful, but stay alert! 😯 It's easy to lost time, while you're trying to optimizing it.

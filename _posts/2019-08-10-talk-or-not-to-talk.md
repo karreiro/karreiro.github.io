@@ -3,6 +3,7 @@ layout: post
 title:  "Talk or not to talk?"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-08-10 00:00:00 -0300
+archived: true
 ---
 
 Presenting a talk is not an easy thing. It can bring the feeling of pressure, anxiety, and you may start suspecting of your skills for that. Having your proposal approved is just the beginning of this potentially painful adventure.

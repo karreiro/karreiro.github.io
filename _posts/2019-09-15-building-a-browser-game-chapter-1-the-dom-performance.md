@@ -3,6 +3,7 @@ layout: post
 title:  "Building a browser game - Chapter 1: The DOM performance"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-09-15 00:00:00 -0300
+archived: true
 ---
 
 These days I was feeling nostalgic about JavaScript. My adventures with Go has been fun, but I was missing to write some code that runs on the browser and makes colorful-things pop. Also, I had an exciting idea, and I decided to make it happen with a web app.

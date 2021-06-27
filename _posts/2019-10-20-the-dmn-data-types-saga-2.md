@@ -3,6 +3,7 @@ layout: post
 title:  "The DMN Data Types saga [2]"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-10-20 00:00:00 -0300
+archived: true
 ---
 
 Some days ago, I commented about my saga, improving the Data Types tab:

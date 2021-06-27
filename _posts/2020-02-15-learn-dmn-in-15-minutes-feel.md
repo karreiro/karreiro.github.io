@@ -3,6 +3,7 @@ layout: post
 title:  "[Learn DMN in 15 minutes] FEEL"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-02-15 00:00:00 -0300
+archived: true
 ---
 
 In the last few weeks, I mentioned the [Learn DMN in 15 minutes](http://learn-dmn-in-15-minutes.com) website.

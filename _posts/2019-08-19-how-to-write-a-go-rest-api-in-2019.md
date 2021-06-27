@@ -3,6 +3,7 @@ layout: post
 title:  "How to write a Go REST API in 2019"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-08-19 00:00:00 -0300
+archived: true
 ---
 
 Some weeks ago, I read about different approaches for APIs styles. I've written a little bit about gRPC, but then I've realized that I've never implemented a simple CRUD with Go :O
