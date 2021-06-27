@@ -16,10 +16,8 @@ WASI exposes system interfaces to WebAssembly [^3] programs and hides all the im
 
 If you want to know more about this, I highly recommend the **Bytecode Alliance website** - [bytecodealliance.org](https://bytecodealliance.org) - it's an excellent source of apprehensible information :-)
 
---
+---
 
 [^1]: QCon Plus talk: ["WASI: A New Kind of System Interface", from Lin Clark](https://plus.qconferences.com/plus2021/presentation/wasi-new-kind-system-interface)
-
 [^2]: `github@WebAssembly/design/NonWeb.md` - [https://github.com/WebAssembly/design/blob/main/NonWeb.md](https://github.com/WebAssembly/design/blob/main/NonWeb.md)
-
 [^3]: `github@WASI/docs/WASI-overview.md` - [https://github.com/WebAssembly/WASI/blob/main/docs/WASI-overview.md#wasi-webassembly-system-interface](https://github.com/WebAssembly/WASI/blob/main/docs/WASI-overview.md#wasi-webassembly-system-interface)

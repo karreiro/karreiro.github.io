@@ -5,9 +5,23 @@
 .home
 
   h1
+    margin: 3.3rem 0
+    font-size: 1.8rem
+    line-height: 1.6
+    letter-spacing: 1px
+    font-weight: 600
+    overflow-wrap: break-word
     text-align: center
-    margin: 1rem 0
-  
+    font-family: $font-family-mono
+    text-transform: uppercase
+    &::after,
+    &::before
+      content: "'"
+      font-weight: 400
+      opacity: .3
+  hr
+    border: 1px solid $color-quinary
+    margin: 3.25rem auto
   .box
     h2,
     & > a
@@ -37,8 +51,12 @@
   ul.activity
     padding: 0
 
+    a
+      font-weight: 400
+
     span
       white-space: nowrap
+      color: $color-tertiary
 
     li:before
       display: none
@@ -54,12 +72,15 @@
         &:after
           content: "-"
           position: absolute
-          opacity: .75
+          opacity: .3
           width: 10px
           top: 0
           right: 5px
 
-    @media (max-width: 40.0rem)
+  @media (max-width: 40.0rem)
+    h1
+      zoom: 1
+    ul.activity
       span
         font-size: 1.5rem
       .row
@@ -69,29 +90,26 @@
 .profile-drawing-frame
   position: relative
   display: block
-  margin: 30px auto 20px
+  margin: 40px auto 30px
   &,
   &:before
-    width: 170px
-    height: 170px
+    width: 148px
+    height: 148px
   &:before
     content: " "
     position: absolute
     left: 0
     top: 0
     border-radius: 100%
-    background-color: #cec4c5
-    transition: background .3s
-  &:hover
-    &:before
-      background-color: #e2dcdc
+    background-color: $color-senary
+
   .profile-drawing
     filter: contrast(2.8)
     position: absolute
-    max-width: 200px
-    max-height: 200px
-    left: -15px
-    top: -15px
+    max-width: 120%
+    max-height: 120%
+    left: -10%
+    top: -10%
 
 .profile-picture-frame
   width: 175px
