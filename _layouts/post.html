@@ -6,22 +6,28 @@ layout: default
   <article itemscope itemtype="http://schema.org/BlogPosting">
     {% assign words = content | number_of_words %}
 
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 itemprop="name headline">
+      {% if page.title contains "URLOTW" %} {% include urlotw-icon.html
+      size='45px' %} {{ page.title | replace: "[URLOTW]", "" | escape }} {% else
+      %} {{ page.title | escape }} {% endif %}
+    </h1>
     <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: '%b %-d, %Y' }} ・ {{ words | divided_by: 200.0 | ceil }} min read
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {{ page.date | date: '%b %-d, %Y' }} ・ {{ words | divided_by: 200.0 |
+        ceil }} min read
       </time>
     </p>
 
-    <div itemprop="articleBody">
-      {{ content }}
-    </div>
+    <div itemprop="articleBody">{{ content }}</div>
 
     <hr />
 
     <div class="card">
-      Wanna talk about this post?
-      @ me on <a href="https://twitter.com/karreiro_">Twitter</a> :-)
+      Wanna talk about this post? @ me on
+      <a href="https://twitter.com/karreiro_">Twitter</a> :-)
     </div>
   </article>
 </section>

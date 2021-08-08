@@ -4,7 +4,9 @@ title: "[URLOTW] Rust GameDev Workgroup's monthly newsletter"
 date: 2021-05-14 00:00:00 +0000
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is the **Rust GameDev Workgroup's monthly newsletter (#21)"**:
 [gamedev.rs/news/021/](https://gamedev.rs/news/021/).

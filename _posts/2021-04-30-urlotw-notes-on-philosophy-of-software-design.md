@@ -4,7 +4,9 @@ title: '[URLOTW] Notes on "Philosophy of Software Design"'
 date: 2021-04-30 00:00:00 +0000
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **Notes on "Philosophy of Software Design"**:
 [jmoiron.net/blog/notes-on-philosophy-of-software-design](http://jmoiron.net/blog/notes-on-philosophy-of-software-design).

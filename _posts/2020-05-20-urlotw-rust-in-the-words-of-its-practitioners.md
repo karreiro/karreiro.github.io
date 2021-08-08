@@ -5,7 +5,9 @@ permalink: /:year/:month/:day/:title:output_ext
 date: 2020-05-20 00:00:00 -0300
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **fireflowers - The Rust Programming Language, in the words of its practitioners**:
 [brson.github.io/fireflowers](http://brson.github.io/fireflowers).

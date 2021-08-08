@@ -1,18 +1,22 @@
 <ul class="activity">
-  {% for post in site.posts %}
-  {% if post.archived != true or page.name == 'archive.md' %}
+  {% for post in site.posts %} {% if post.archived != true or page.name ==
+  'archive.md' %}
   <li class="row">
     <div class="column column-20">
       <span>{{ post.date | date: '%b %-d, %Y' }}</span>
     </div>
     <div class="column">
+      {% if post.title contains "URLOTW" %}
       <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
+        {% include urlotw-icon.html size='16px' %} {{ post.title | replace:
+        "[URLOTW]", "" | escape }}
       </a>
+      {% else %}
+      <a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
+      {% endif %}
     </div>
   </li>
-  {% endif %}
-  {% endfor %}
+  {% endif %} {% endfor %}
 </ul>
 {% if page.name != 'archive.md' %}
 <a class="view-archived-posts" href="/archive">

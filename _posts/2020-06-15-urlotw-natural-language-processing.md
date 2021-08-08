@@ -5,7 +5,9 @@ permalink: /:year/:month/:day/:title:output_ext
 date: 2020-06-15 00:00:00 -0300
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **Natural Language Processing: the age of Transformers**:
 [blog.scaleway.com/building-a-machine-reading-comprehension-system-using-the-latest-advances-in-deep-learning-for-nlp](https://blog.scaleway.com/building-a-machine-reading-comprehension-system-using-the-latest-advances-in-deep-learning-for-nlp).

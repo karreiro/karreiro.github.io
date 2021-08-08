@@ -4,7 +4,9 @@ title: "[URLOTW] React: Glossary + Explain Like I'm Five"
 date: 2021-06-19 00:00:00 +0000
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **React: Glossary + Explain Like I'm Five**:
 [github.com/reactwg/react-18/discussions/46](https://github.com/reactwg/react-18/discussions/46).

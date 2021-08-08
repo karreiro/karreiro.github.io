@@ -4,7 +4,9 @@ title: "[URLOTW] The master guide to smooth, realistic shadows in CSS"
 date: 2021-06-26 00:00:00 +0000
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **The master guide to smooth, realistic shadows in CSS**:
 [dev.to/devang/the-master-guide-to-smooth-realistic-shadows-in-css-463p](https://dev.to/devang/the-master-guide-to-smooth-realistic-shadows-in-css-463p).

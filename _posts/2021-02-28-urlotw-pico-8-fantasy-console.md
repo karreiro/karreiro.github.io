@@ -4,7 +4,9 @@ title: "[URLOTW] PICO-8 Fantasy Console"
 date: 2021-02-28 00:00:00 +0000
 ---
 
-<span class="bg-highlight">URLOTW</span> or URL of the week is a kind of post where I share a relevant URL with you :-)
+<p>
+  <b>URL of the week</b> ({% include urlotw-icon.html size='16px' %}) is a kind of post where I share a relevant URL with you :-)
+</p>
 
 This week the winner is **PICO-8 Fantasy Console**:
 [lexaloffle.com/pico-8](https://www.lexaloffle.com/pico-8.php).
