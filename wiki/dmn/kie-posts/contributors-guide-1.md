@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: DMN editor - Contributors guide - Part 1
+title: DMN editor - Contributors Guide - Part 1
 last_updated: 2021-06-09
 ---
 
@@ -14,7 +14,7 @@ Are you excited too? So, this guide is for you! 😃
 
 The idea is not to overwhelm this experience, so let's take baby steps and understand one thing at a time.
 
-Today, we will take a look at the editor's overall anatomy and where each component lives and, with that simple introduction,  you will be able to make your first contribution! But, first, let's take a look at the 3 kinds of modules that compose the DMN editor.
+Today, we will take a look at the editor's overall anatomy and where each component lives and, with that simple introduction, you will be able to make your first contribution! But, first, let's take a look at the 3 kinds of modules that compose the DMN editor.
 
 ### I. The TypeScript modules
 
@@ -39,7 +39,6 @@ There's other interesting sub-modules into these two sections, but the idea is t
 
 However, if you're brave enough for an early contribution, you may check DMN component [here](https://github.com/kiegroup/kogito-editors-java/tree/main/kie-wb-common-dmn) and Stunner components [here](https://github.com/kiegroup/kogito-editors-java/tree/main/kie-wb-common-stunner).
 
-
 ### III. The models in transition
 
 Some modules are being moved from the Java/GWT world to the new stack based on TS/React. Currently, only boxed expression editor is being moved:
@@ -52,7 +51,7 @@ The new component, right now, leaves on [this fork](https://github.com/karreiro/
 
 But, maybe you’re wondering... _How does this post help me?_
 
-Well… now that you know where each component lives, you’re already empowered to fix issues like this one: [KOGITO-2618](https://issues.redhat.com/browse/KOGITO-2618): 
+Well… now that you know where each component lives, you’re already empowered to fix issues like this one: [KOGITO-2618](https://issues.redhat.com/browse/KOGITO-2618):
 [Guided Tour] Dialog must show scrollbars on small screens. You just needed to know the right place for the CSS height property.
 
 As I mentioned. This post is the first one of a series. Here we covered languages, and the overall editor anatomy, but only minimum stuff, so you can easily understand where you can open your first PR.
@@ -60,4 +59,3 @@ As I mentioned. This post is the first one of a series. Here we covered language
 In the following posts, we will go beyond and check each kind of module with more details.
 
 Stay tunned!
-

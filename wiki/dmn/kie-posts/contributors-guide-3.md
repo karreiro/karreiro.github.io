@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: DMN editor - Contributors guide - Part 3
+title: DMN editor - Contributors Guide - Part 3
 last_updated: 2021-06-09
 ---
 
