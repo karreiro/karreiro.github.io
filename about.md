@@ -10,6 +10,6 @@ Hi, I'm Guilherme Carreiro, aka `karreiro` :-)
   <img src="/assets/about.jpg" class="image-box-shadow" alt="Guilherme Carreiro presenting a talk" title="Guilherme Carreiro presenting a talk">
 </a>
 
-I work as a Senior Software Engineer at Red Hat. Currently, I'm involved with the development of the DMN tooling into the platform.
+I work as a Senior Developer at Shopify. Currently, I'm focused on developer experience and tooling.
 
 I'm not a entusiat of social networks 😅 but you find me here: [github.com/karreiro](https://github.com/karreiro), [linkedin.com/in/karreiro](https://www.linkedin.com/in/karreiro), [twitter.com/karreiro\_](https://twitter.com/karreiro_).
