@@ -6,6 +6,7 @@ date:   2020-07-17 00:00:00 -0300
 highlight: true
 image: "/assets/how-to-introduce-an-app-for-users-preview.png"
 abstract: "Today I could test the new Kogito VSCode extension, which supports DMN models now."
+archived: true
 ---
 
 Introducing a web or mobile application is not a challenge when dealing with a simple and straightforward solution. However, that's not always possible. Some tools are intrinsically complicated, and users will need to deal with it.

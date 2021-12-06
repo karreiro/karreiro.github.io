@@ -3,6 +3,7 @@ layout: post
 title:  "Clean Go code"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-06-23 00:00:00 -0300
+archived: true
 ---
 
 **Good practices** -- this certainly is the most important and challenging topic when you're learning a new language. That's natural. You're a beginner, didn't read much code, it's hard to decide the right way for expressing some piece of logic.

@@ -2,6 +2,7 @@
 layout: post
 title: "New enhancements on DMN editor decision services experience"
 date: 2021-03-02 00:00:00 +0000
+archived: true
 ---
 
 The user experience for decision service nodes is something we're incrementally enhancing in the DMN editor. [Kogito 0.8.4](https://github.com/kiegroup/kogito-tooling/releases) will introduce a new feature that significantly enhances how users call decision services.

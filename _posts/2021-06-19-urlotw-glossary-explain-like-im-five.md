@@ -2,6 +2,7 @@
 layout: post
 title: "[URLOTW] React: Glossary + Explain Like I'm Five"
 date: 2021-06-19 00:00:00 +0000
+archived: true
 ---
 
 <p>

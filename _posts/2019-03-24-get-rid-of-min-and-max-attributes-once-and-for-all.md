@@ -3,6 +3,7 @@ layout: post
 title:  "Get rid of \"min\" and \"max\" HTML 5 attributes once and for all"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-03-24 00:00:00 -0300
+archived: true
 ---
 
 Recently, I needed to implement a very straight forward HTML input. I know we do this kind of thing all the time, but I had some interesting insights I’d like to share. Check these input elements and validation notes:

@@ -3,6 +3,7 @@ layout: post
 title:  "[DMN pro-tip] BKM nodes"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-01-20 00:00:00 -0300
+archived: true
 ---
 
 I've been working a lot in a new project: [learn-dmn-in-15-minutes.com](http://learn-dmn-in-15-minutes.com) :-) It's a work in progress, but it's getting an excellent shape!
