@@ -2,6 +2,7 @@
 layout: post
 title: "How the new FEEL code-completion works under the hoods"
 date: 2021-03-30 00:00:00 +0000
+archived: false
 ---
 
 Context-aware code-completion is one of the most important features an IDE can provide to speed-up coding, reduce typos and avoid other common mistakes. **Kogito Tooling 0.9.0** release will bring enhanced code-completion for Literal FEEL expressions:

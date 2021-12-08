@@ -3,6 +3,7 @@ layout: post
 title:  "Understanding Decision Tables - Part 1"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-04-21 00:00:00 -0300
+archived: false
 ---
 
 Some business models are too complicated, and only when you need to translate them to code, you realize you have a problem - a massive amount of conditional statements.

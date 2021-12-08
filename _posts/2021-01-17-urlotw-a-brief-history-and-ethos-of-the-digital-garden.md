@@ -2,6 +2,7 @@
 layout: post
 title: "[URLOTW] A Brief History & Ethos of the Digital Garden"
 date: 2021-01-17 00:00:00 -0300
+archived: false
 ---
 
 <p>

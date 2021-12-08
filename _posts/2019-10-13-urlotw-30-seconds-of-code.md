@@ -3,6 +3,7 @@ layout: post
 title: "[URLOTW] 30 seconds of code"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2019-10-13 00:00:00 -0300
+archived: false
 ---
 
 <p>

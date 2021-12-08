@@ -2,6 +2,7 @@
 layout: post
 title: "How to keep your Github profile fresh and cool"
 date: 2021-02-21 00:00:00 +0000
+archived: false
 ---
 
 I recently discovered this Github feature where we can have a **README.md** on our public profile. It works like a personal index for me, where I can share my blog, digital garden, etc.

@@ -2,6 +2,7 @@
 layout: post
 title: "WASI: WebAssembly System Interface"
 date: 2021-05-30 00:00:00 +0000
+archived: false
 ---
 
 In the latest two weeks, I had the opportunity of watching many QCon Plus talks. One of my favorite ones was the "**WASI: A New Kind of System Interface**" from Lin Clark [^1], an excellent explanation of WASI and why the **Bytecode Alliance** is so important.

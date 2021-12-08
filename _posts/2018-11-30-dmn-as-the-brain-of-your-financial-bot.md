@@ -3,6 +3,7 @@ layout: post
 title:  "DMN as the brain of your Financial Bot"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2018-11-30 00:00:00 -0300
+archived: false
 ---
 
 October was a great month at work :-)

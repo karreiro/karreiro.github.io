@@ -3,6 +3,7 @@ layout: post
 title:  "What's my favorite conference?"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-05-02 00:00:00 -0300
+archived: false
 ---
 
 Every engineer has their favorite conference. Some professionals choose it based on their preferred language, others prefer generalist events, and others use some different criteria. But what matters is to keep yourself updated and motivated to keep learning.

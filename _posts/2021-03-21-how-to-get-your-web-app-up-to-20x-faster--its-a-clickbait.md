@@ -2,6 +2,7 @@
 layout: post
 title: "How to get your web app up to 20x faster (it's a clickbait)"
 date: 2021-03-21 00:00:00 +0000
+archived: false
 ---
 
 I've recently realized how slow DOM may get if we're not diligent enough with our web components' needs. Some of them may get too greedy with the browser resources and slow down the whole web app for a trivial reason.

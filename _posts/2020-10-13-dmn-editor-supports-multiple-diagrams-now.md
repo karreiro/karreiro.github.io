@@ -6,6 +6,7 @@ date:      2020-10-13 00:00:00 -0300
 highlight: false
 image:     "/assets/dmn-editor-supports-multiple-diagrams-now-preview.png"
 abstract:  "We can finally break the DMN graph into many sub-digrams. It's all about simplifying how we visually express decisions."
+archived: false
 ---
 
 The [DMN editor](http://dmn.new) was already great for expressing business logic and decomposing complex decisions into multiple nodes.

@@ -2,6 +2,7 @@
 layout: post
 title: "DMN-cli imports Java classes as data types now"
 date: 2021-01-24 00:00:00 -0300
+archived: false
 ---
 
 Some months ago, I created [the DMN-cli project](/2020/08/12/the-dmn-cli-is-finally-available.html) 🎉, which is a tool that allows you to manage DMN models via command-line easily. The primary purpose is to provide a simple infrastructure to automate operations into your models via cli.

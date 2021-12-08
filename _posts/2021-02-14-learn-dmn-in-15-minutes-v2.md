@@ -5,6 +5,7 @@ date: 2021-02-14 00:00:00 -0300
 image: "/assets/learn-dmn-in-15-minutes-preview.png"
 highlight: true
 abstract: "The first major update in the Learn DMN in 15 minutes course it's finished and online!<br/>"
+archived: false
 ---
 
 In the last few days, I've been working on a major update for the [Learn DMN in 15 minutes](https://learn-dmn-in-15-minutes.com) course, and it's finally finished - the v2 is already online!

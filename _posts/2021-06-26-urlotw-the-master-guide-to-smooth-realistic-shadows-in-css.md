@@ -2,6 +2,7 @@
 layout: post
 title: "[URLOTW] The master guide to smooth, realistic shadows in CSS"
 date: 2021-06-26 00:00:00 +0000
+archived: false
 ---
 
 <p>

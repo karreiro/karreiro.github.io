@@ -3,6 +3,7 @@ layout: post
 title: "[URLOTW] Wasm By Example"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2020-07-10 00:00:00 -0300
+archived: false
 ---
 
 <p>

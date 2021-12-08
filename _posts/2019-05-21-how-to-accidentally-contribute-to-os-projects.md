@@ -3,6 +3,7 @@ layout: post
 title:  "How to accidentally contribute to OS projects"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-05-21 00:00:00 -0300
+archived: false
 ---
 
 After writing a simple pong game, as I mentioned in my last post, I'm still studying Go. This week I challenged myself to write a more exciting thing, so I decided to write a Go program that controls a Stardew Valley[^1] game :-)

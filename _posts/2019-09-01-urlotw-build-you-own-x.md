@@ -3,6 +3,7 @@ layout: post
 title: "[URLOTW] Build you own X"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2019-09-01 00:00:00 -0300
+archived: false
 ---
 
 <p>

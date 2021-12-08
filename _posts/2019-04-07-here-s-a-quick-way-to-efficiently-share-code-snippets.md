@@ -3,6 +3,7 @@ layout: post
 title:  "Here's a quick way to efficiently share code snippets"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-04-07 00:00:00 -0300
+archived: false
 ---
 
 When you work remotely, you notice you need a tool for many everyday tasks. I frequently need to share code snippets with my teammates to explain something, and IMHO the best tool for that is [Gist](https://gist.github.com/) - a very simple and straightforward service.

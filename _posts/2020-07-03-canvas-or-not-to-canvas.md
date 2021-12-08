@@ -3,6 +3,7 @@ layout: post
 title:  "Canvas or not to Canvas?"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-07-03 00:00:00 -0300
+archived: false
 ---
 
 The canvas is the most fascinating and powerful window on modern browsers. Whenever I see something intriguing that goes beyond what I visually would expect, I realize it’s a canvas trick.

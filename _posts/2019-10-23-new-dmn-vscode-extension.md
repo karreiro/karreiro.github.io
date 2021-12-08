@@ -3,6 +3,7 @@ layout: post
 title:  "New DMN VSCode Extension"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-10-23 00:00:00 -0300
+archived: false
 ---
 
 Today I could test the new Kogito VSCode extension, which supports DMN models now. 🎉

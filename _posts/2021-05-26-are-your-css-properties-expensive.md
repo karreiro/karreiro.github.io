@@ -2,6 +2,7 @@
 layout: post
 title: "Are your CSS properties expensive?"
 date: 2021-05-26 00:00:00 +0000
+archived: false
 ---
 
 Working in a web IDE is a challenging but fun trial. I frequently face the edge of browser capabilities and often need to find bottlenecks to ensure a good user experience. Today, I will show you one of these challenges.

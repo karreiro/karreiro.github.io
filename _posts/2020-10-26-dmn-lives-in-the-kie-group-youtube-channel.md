@@ -3,6 +3,7 @@ layout: post
 title: "DMN lives in the KIE Group YouTube channel - Part 1"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2020-10-26 00:00:00 -0300
+archived: false
 ---
 
 The [KIE YouTube channel](https://www.youtube.com/channel/UCUjeymTM-TrwHs36388VRbw) is regularly posting quite interesting content!

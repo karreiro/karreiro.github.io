@@ -3,6 +3,7 @@ layout: post
 title:  "Financial Bot"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2018-09-25 00:00:00 -0300
+archived: false
 ---
 
 Today I'd like to share with you one of the many adventures that I had in my free time with weekend projects.

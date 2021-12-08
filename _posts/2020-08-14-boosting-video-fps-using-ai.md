@@ -3,6 +3,7 @@ layout: post
 title:  "Boosting video fps using AI"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2020-08-14 00:00:00 -0300
+archived: false
 ---
 
 These days I was spending some time on YouTube when I faced this incredible video, and I really want to share it with you:

@@ -3,6 +3,7 @@ layout: post
 title:  "AI and robots"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-04-14 00:00:00 -0300
+archived: false
 ---
 
 Some years ago I frequented mastering classes at the University of Campinas (UNICAMP). UNICAMP is an excellent university, and I was living very close to the campus, so I decided to have a different kind of _happy hour_ for some months and learn about Artificial Intelligence.

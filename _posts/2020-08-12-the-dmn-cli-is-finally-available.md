@@ -6,6 +6,7 @@ date:   2020-08-12 00:00:00 -0300
 highlight: true
 image: "/assets/the-best-dmn-command-line-interface-preview.png"
 abstract: "A command-line interface tool which allows you to easily manage, inspect, and preview DMN models."
+archived: false
 ---
 
 Have you ever needed to handle a batch of DMN files? Or even.. have you tried to list nodes of some model by using the command-line?

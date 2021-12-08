@@ -3,6 +3,7 @@ layout: post
 title: "[URLOTW] Rust in the words of its practitioners"
 permalink: /:year/:month/:day/:title:output_ext
 date: 2020-05-20 00:00:00 -0300
+archived: false
 ---
 
 <p>

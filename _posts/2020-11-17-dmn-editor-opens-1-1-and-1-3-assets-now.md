@@ -3,6 +3,7 @@ layout:    post
 title:     "DMN editor opens 1.1 and 1.3 assets now"
 permalink: /:year/:month/:day/:title:output_ext
 date:      2020-11-17 00:00:00 -0300
+archived: false
 ---
 
 The DMN editor continues evolving towards making users' lives as simple as possible. On Kogito 0.8.1, we introduce a new mechanism to open DMN 1.1 and 1.3 assets.

@@ -3,6 +3,7 @@ layout: post
 title:  "Understanding Decision Tables - Part 2"
 permalink: /:year/:month/:day/:title:output_ext
 date:   2019-04-28 00:00:00 -0300
+archived: false
 ---
 
 We’ve discussed the purpose of Decision Tables in my previous post ([Understanding Decision Tables - Part 1](/2019/04/21/understanding-decision-tables-1.html)) to understand how this technique emerges and solves problems involving significant amounts of rules.
