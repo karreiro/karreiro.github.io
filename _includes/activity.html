@@ -1,25 +1,26 @@
+{% assign posts = site.posts | where: "archived", include.archived %}
+
 <ul class="activity">
-  {% for post in site.posts %} {% if post.archived != true or page.name ==
-  'archive.md' %}
+  {% for post in posts | limit: include.limit %}
+
   <li class="row">
-    <div class="column column-20">
-      <span>{{ post.date | date: '%b %-d, %Y' }}</span>
-    </div>
+
     <div class="column">
-      {% if post.title contains "URLOTW" %}
       <a href="{{ post.url | relative_url }}">
-        {% include urlotw-icon.html size='16px' %} {{ post.title | replace:
-        "[URLOTW]", "" | escape }}
+        {% if post.title contains "URLOTW" %}
+        {{ post.title | replace: "[URLOTW]", "" | escape }}
+        {% include urlotw-icon.html size="16px" %}
+        {% else %}
+        {{ post.title | escape }}
+        {% endif %}
       </a>
-      {% else %}
-      <a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
-      {% endif %}
     </div>
+
+    <div class="column column-20">
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+
   </li>
-  {% endif %} {% endfor %}
+
+  {% endfor %}
 </ul>
-{% if page.name != 'archive.md' %}
-<a class="view-archived-posts" href="/archive">
-  <span>View archived posts</span>
-</a>
-{% endif %}

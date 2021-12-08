@@ -2,20 +2,19 @@
 layout: default
 ---
 <section class="container home">
-  <a href="/about" class="profile-drawing-frame">
+  <a href="/" class="profile-drawing-frame">
     <img alt="profile drawing" class="profile-drawing" src="/assets/profile-drawing.png" />
   </a>
 
-  <h1>Guilherme Carreiro</h1>
+  <h3>Hello!</h3>
+  {{ content }}
 
-  {% if page.name == 'archive.md' %}
-  <h2>Welcome to the archive. Browse at your own risk!</h2>
-  {% endif %}
-
-  <hr />
   {% if site.highlighted_posts %}
   {% include highlights.html %}
-  <hr />
   {% endif %}
-  {% include activity.html %}
+
+  <h3>Recent posts</h3>
+  {% include activity.html archived=false limit=8 %}
+  {% include bottom-button.html text="All posts" href="/posts" %}
+
 </section>

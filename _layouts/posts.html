@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="container posts">
+  <h1 itemprop="name headline">
+    {{ page.title | escape }}
+  </h1>
+
+  {% if page.name == 'archived.md' %}
+  <h4>Welcome to my archive of posts. Browse at your own risk!</h4>
+  {% endif %}
+
+  {% if site.highlighted_posts %}
+  {% include highlights.html %}
+  <hr />
+  {% endif %}
+  {% include activity.html archived=page.archived %}
+
+  {% if page.name == 'archived.md' %}
+  {% include bottom-button.html text="All posts" href="/posts" %}
+  {% else %}
+  {% include bottom-button.html text="Archived posts" href="/archived" %}
+  {% endif %}
+
+</section>

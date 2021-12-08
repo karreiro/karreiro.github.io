@@ -7,17 +7,18 @@ layout: default
     {% assign words = content | number_of_words %}
 
     <h1 itemprop="name headline">
-      {% if page.title contains "URLOTW" %} {% include urlotw-icon.html
-      size='45px' %} {{ page.title | replace: "[URLOTW]", "" | escape }} {% else
-      %} {{ page.title | escape }} {% endif %}
+      {% if page.title contains "URLOTW" %}
+      {{ page.title | replace: "[URLOTW]", "" | escape }}
+      {% include urlotw-icon.html size='45px' %}
+      {% else %}
+      {{ page.title | escape }}
+      {% endif %}
     </h1>
     <p>
-      <time
-        datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished"
-      >
-        {{ page.date | date: '%b %-d, %Y' }} ・ {{ words | divided_by: 200.0 |
-        ceil }} min read
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: '%b %-d, %Y' }}
+        ・
+        {{ words | divided_by: 200.0 | ceil }} min read
       </time>
     </p>
 

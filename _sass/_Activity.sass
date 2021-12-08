@@ -1,0 +1,35 @@
+
+// Activity
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ul.activity
+  a
+    font-weight: 400
+
+  span
+    white-space: nowrap
+    color: $color-quaternary
+    font-size: 1.5rem
+    font-family: $font-family-mono
+
+  li
+    &::before
+      content: ""
+    &:hover
+      background-color: #fbf8f9
+      border-radius: 1rem
+
+  svg
+    fill: $color-primary
+    filter: grayscale(.6)
+    display: inline-block
+    vertical-align: middle
+    margin: 0 2px 3px 0
+
+  .row
+    .column
+      margin-bottom: 0
+
+  @media (min-width: 50.0rem)
+    .column-20
+      text-align: right
