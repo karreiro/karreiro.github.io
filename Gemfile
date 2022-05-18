@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem "github-pages",       "219"
 gem "jekyll",             "3.9.0"
-gem "nokogiri",           "1.11.7"
+gem "nokogiri",           "1.13.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed",      "0.15.1"
