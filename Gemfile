@@ -1,17 +1,18 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "github-pages",       "227"
-gem "jekyll",             "3.9.2"
-gem "nokogiri",           "1.13.7"
+gem 'github-pages',   '231'
+gem 'jekyll',         '3.9.5'
+gem 'nokogiri',       '1.15.5'
 
 group :jekyll_plugins do
-  gem "jekyll-feed",      "0.15.1"
+  gem 'jekyll-feed',  '0.17.0'
 end
 
 group :development do
-  gem "rubocop",          "1.42",   require: false
-  gem "rubocop-shopify",  "2.11.1", require: false
-  gem "webrick",          "1.7.0",  require: false
+  gem 'rake',         '13.2.1'
+  gem 'rubocop',      '1.63.4'
+  gem 'rubocop-rake', '0.6.0'
+  gem 'webrick',      '1.8.1'
 end

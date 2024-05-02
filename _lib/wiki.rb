@@ -16,7 +16,8 @@ class Wiki
   end
 
   def index_content
-    today = Time.now.strftime("%Y-%m-%d")
+    today = Time.now.strftime('%Y-%m-%d')
+
     <<~JEKYLL
       ---
       layout: wiki

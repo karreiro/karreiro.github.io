@@ -22,7 +22,7 @@ class WikiProcessor
   end
 
   def create_wiki_index
-    File.new(wiki.index, "w").puts(wiki.index_content)
+    File.new(wiki.index, 'w').puts(wiki.index_content)
   end
 
   def show_success_message
