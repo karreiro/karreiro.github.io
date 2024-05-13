@@ -226,7 +226,7 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.15.5)
+    nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -295,7 +295,7 @@ DEPENDENCIES
   github-pages (= 231)
   jekyll (= 3.9.5)
   jekyll-feed (= 0.17.0)
-  nokogiri (= 1.15.5)
+  nokogiri (= 1.16.5)
   rake (= 13.2.1)
   rubocop (= 1.63.4)
   rubocop-rake (= 0.6.0)
