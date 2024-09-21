@@ -78,7 +78,7 @@ talks:
     file_name: "2021-how-to-play-with-dmn.pdf"
 
   - title: "Building native Ruby<br />extensions in Rust"
-    conference: "Baltic Ruby"
+    conference: "EuRuKo / Baltic Ruby"
     year: 2024
     color: "#121c33"
-    file_name: "2024-building-native-ruby-extensions-in-rust.pdf"
+    file_name: "2024-euruko-building-native-ruby-extensions-in-rust"
