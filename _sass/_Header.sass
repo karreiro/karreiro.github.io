@@ -1,16 +1,20 @@
 
 // Header
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 header
-  text-align: center
-  background-color: rgba(0, 0, 0, 0.02)
-  font-family: $font-family-default
   nav
-    height: 60px
-    width: 100%
-    margin-bottom: 2rem
+    text-align: right
+    margin-bottom: 4rem
     a
-      color: $color-secondary
-      display: inline-block
-      padding: 1.7rem 1.6rem 0
+      margin: 0 0.75rem
+    a[href="/feed.xml"]
+      margin-right: 0
+
+@media (max-width: 40rem)
+  header
+    nav
+      margin-top: 2rem
+      text-align: center
+      a[href="/feed.xml"]
+        margin-right: 0.75rem

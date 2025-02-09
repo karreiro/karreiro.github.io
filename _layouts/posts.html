@@ -1,25 +1,43 @@
 ---
 layout: default
 ---
-<section class="container posts">
-  <h1 itemprop="name headline">
-    {{ page.title | escape }}
-  </h1>
 
-  {% if page.name == 'archived.md' %}
-  <h4>Welcome to my archive of posts. Browse at your own risk!</h4>
-  {% endif %}
+<section class="posts">
+    <h1 itemprop="name headline">
+        {{ page.title | escape }}
+    </h1>
 
-  {% if site.highlighted_posts %}
-  {% include highlights.html %}
-  <hr />
-  {% endif %}
-  {% include activity.html archived=page.archived %}
+    {% if page.archived %}
+    <h4>
+        These posts are from a different time
+        -
+        enjoy them with a pinch of nostalgia!
+    </h4>
+    {% endif %}
 
-  {% if page.name == 'archived.md' %}
-  {% include bottom-button.html text="All posts" href="/posts" %}
-  {% else %}
-  {% include bottom-button.html text="Archived posts" href="/archived" %}
-  {% endif %}
+    {% assign posts = site.posts | where: "archived", page.archived %}
 
+    <ul>
+        {% for post in posts %}
+
+        {% assign l_link = post.url | relative_url %}
+        {% assign l_text = post.title | replace: "[URLOTW]", "" | truncate: 65 | escape %}
+        {% assign r_text = post.date | date: "%Y-%m-%d" %}
+
+        <li>
+            {%
+            include text-row.html
+            left_text=l_text
+            left_link=l_link
+            right_text=r_text
+            right_mono=true
+            %}
+        </li>
+
+        {% endfor %}
+    </ul>
+
+    {% if page.archived %}
+    <a href="/posts">All Posts »</a>
+    {% endif %}
 </section>

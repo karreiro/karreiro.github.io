@@ -1,18 +1,18 @@
 <h3>Highlights</h3>
 <div class="row">
-  {% assign highlights = site.posts | where: 'highlight', true %}
-  {% for post in highlights | limit: 2 %}
-  <div class="column box">
-    <a href="{{ post.url | relative_url }}">
-      <h4>{{ post.title | escape | truncate: 42 }}</h4>
-      <div class="box-image-frame">
-        <img alt="{{ post.title | escape }} - post image" src="{{ post.image }}">
-      </div>
-    </a>
-    <p>
-      {{ post.abstract }}
-      <a href="{{ post.url | relative_url }}">Read more →</a>
-    </p>
-  </div>
-  {% endfor %}
+    {% assign highlights = site.posts | where: 'highlight', true %}
+    {% for post in highlights | limit: 2 %}
+    <div class="column box">
+        <a href="{{ post.url | relative_url }}">
+            <h4>{{ post.title | escape | truncate: 42 }}</h4>
+            <div class="box-image-frame">
+                <img alt="{{ post.title | escape }} - post image" src="{{ post.image }}">
+            </div>
+        </a>
+        <p>
+            {{ post.abstract }}
+            <a href="{{ post.url | relative_url }}">Read more →</a>
+        </p>
+    </div>
+    {% endfor %}
 </div>

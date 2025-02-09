@@ -13,7 +13,7 @@ end
 
 desc 'Serve static content; Usage: `rake start`'
 task :serve do
-  sh 'bundle exec jekyll serve --incremental'
+  sh 'bundle exec jekyll serve --incremental --livereload'
 end
 
 desc 'Create new wiki; Usage: `rake "add_wiki[WIKI_NAME]"`'

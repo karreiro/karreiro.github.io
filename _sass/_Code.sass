@@ -1,161 +1,117 @@
 
 // Code
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+pre,
 code
-  background: #F9F8F8
-  border-radius: .4rem
   font-size: 1.75rem
-  margin: 0 .2rem
-  padding: .2rem .5rem
+  margin: 0
+  padding: 0
   white-space: nowrap
-
-pre
-  background: #F9F8F8
   overflow-y: hidden
-
+  margin-bottom: $margin-bottom-after
   & > code
-    opacity: .9
-    border-radius: 0
     display: block
-    padding: 1rem 1.5rem
     white-space: pre
+    margin: 0
+    padding: 1rem 1.2rem
+    border: 1px solid $color-dim
+    background-color: rgba(255, 255, 255, 0.02)
+  &, a, p, li, span
+    font-family: $font-family-mono
 
 .highlight
+  span
+    color: $color-fg
   table
     td
       padding: 5px
-
     pre
       margin: 0
-
-  .cm
-    color: #999988
+  .cm, .c1, .c, .ch, .cd, .cpf
+    color: #5c6370
     font-style: italic
-
   .cp
-    color: #999999
+    color: #abb2bf
     font-weight: bold
-
-  .c1
-    color: #999988
-    font-style: italic
-
   .cs
-    color: #999999
+    color: #abb2bf
     font-weight: bold
     font-style: italic
-
-  .c, .ch, .cd, .cpf
-    color: #999988
-    font-style: italic
-
   .err
-    color: #a61717
-    background-color: #e3d2d2
-
+    color: #e06c75
+    background-color: rgba(224, 108, 117, 0.15)
   .gd
-    color: #000000
-    background-color: #ffdddd
-
+    color: #ffffff
+    background-color: #be5046
   .ge
-    color: #000000
+    color: #abb2bf
     font-style: italic
-
   .gr
-    color: #aa0000
-
+    color: #e06c75
   .gh
-    color: #999999
-
+    color: #abb2bf
   .gi
-    color: #000000
-    background-color: #ddffdd
-
+    color: #282c34
+    background-color: #98c379
   .go
-    color: #888888
-
+    color: #abb2bf
   .gp
-    color: #555555
-
+    color: #5c6370
   .gs
     font-weight: bold
-
   .gu
-    color: #aaaaaa
-
+    color: #abb2bf
   .gt
-    color: #aa0000
-
+    color: #e06c75
   .kc, .kd, .kn, .kp, .kr
-    color: #000000
+    color: #c678dd
     font-weight: bold
-
   .kt
-    color: #445588
+    color: #e5c07b
     font-weight: bold
-
   .k, .kv
-    color: #000000
+    color: #c678dd
     font-weight: bold
-
   .mf, .mh, .il, .mi, .mo, .m, .mb, .mx
-    color: #009999
-
+    color: #d19a66
   .sb, .sc, .sd, .s2, .se, .sh, .si, .sx
-    color: #d14
-
+    color: #98c379
   .sr
-    color: #009926
-
+    color: #56b6c2
   .s1
-    color: #d14
-
+    color: #98c379
   .ss
-    color: #990073
-
+    color: #61afef
   .s, .sa, .dl
-    color: #d14
-
+    color: #98c379
   .na
-    color: #008080
-
+    color: #56b6c2
   .bp
-    color: #999999
-
+    color: #abb2bf
   .nb
-    color: #0086B3
-
+    color: #61afef
   .nc
-    color: #445588
+    color: #e5c07b
     font-weight: bold
-
   .no
-    color: #008080
-
+    color: #56b6c2
   .nd
-    color: #3c5d5d
+    color: #5c6370
     font-weight: bold
-
   .ni
-    color: #800080
-
+    color: #c678dd
   .ne, .nf, .fm, .nl
-    color: #990000
+    color: #61afef
     font-weight: bold
-
   .nn
-    color: #555555
-
+    color: #abb2bf
   .nt
-    color: #000080
-
+    color: #61afef
   .vc, .vg, .vi, .nv, .vm
-    color: #008080
-
+    color: #56b6c2
   .ow, .o
-    color: #000000
+    color: #abb2bf
     font-weight: bold
-
   .w
-    color: #bbbbbb
+    color: #abb2bf

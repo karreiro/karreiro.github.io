@@ -2,33 +2,30 @@
 layout: default
 ---
 
-<section class="container">
-  <article itemscope itemtype="http://schema.org/BlogPosting">
-    {% assign words = content | number_of_words %}
+<section class="post">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+        {% assign words = content | number_of_words %}
+        {% assign title = page.title | replace: "[URLOTW]", "" | escape %}
 
-    <h1 itemprop="name headline">
-      {% if page.title contains "URLOTW" %}
-      {{ page.title | replace: "[URLOTW]", "" | escape }}
-      {% include urlotw-icon.html size='45px' %}
-      {% else %}
-      {{ page.title | escape }}
-      {% endif %}
-    </h1>
-    <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: '%b %-d, %Y' }}
-        ・
-        {{ words | divided_by: 200.0 | ceil }} min read
-      </time>
-    </p>
+        <h1 itemprop="name headline">
+            {{ title }}
+            {% if page.title contains "URLOTW" %}
+            {% include urlotw-icon.html size='45px' %}
+            {% endif %}
+        </h1>
+        <p>
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ page.date | date: "%Y-%m-%d" }}
+                ・
+                {{ words | divided_by: 200.0 | ceil }} min read
+            </time>
+        </p>
 
-    <div itemprop="articleBody">{{ content }}</div>
+        <div itemprop="articleBody">{{ content }}</div>
 
-    <hr />
-
-    <div class="card">
-      Wanna talk about this post? @ me on
-      <a href="https://twitter.com/karreiro_">Twitter</a> :-)
-    </div>
-  </article>
+        <aside class="comments">
+            Have a comment? Please get in touch by
+            <a href="mailto:karreiro@gmail.com?subject=Re: {{ title }}">email</a>.
+        </aside>
+    </article>
 </section>

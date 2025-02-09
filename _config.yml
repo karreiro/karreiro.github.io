@@ -1,11 +1,9 @@
 title: Guilherme Carreiro
 author: Guilherme Carreiro
 email: karreiro@gmail.com
-description: >
-  Hi, I’m Guilherme Carreiro, aka karreiro :-)
+description: Guilherme Carreiro, Staff Engineer
 baseurl: ""
-url: "http://karreiro.com"
-twitter_username: karreiro_
+url: "https://karreiro.com"
 github_username: karreiro
 markdown: kramdown
 permalink: pretty
@@ -15,70 +13,73 @@ exclude:
   - Rakefile
 plugins:
   - jekyll-feed
-
 talks:
-  - title: "JavaScript<br />The Right Way"
+  - title: "JavaScript The Right Way"
     conference: "FLISOL Campinas"
     year: 2013
-    color: "#FBAA18"
-    file_name: "2013-javascript-the-right-way.pdf"
-
+    file_name: "2013-javascript-the-right-way"
   - title: "High-quality JavaScript"
     conference: "DevCamp / TDC São Paulo"
     year: 2014
-    color: "#387EA4"
-    file_name: "2014-qualidade-js.pdf"
-
-  - title: "Metaprogramming in practice<br />with Ruby"
+    file_name: "2014-qualidade-js"
+  - title: "Metaprogramming in practice with Ruby"
     conference: "TDC Florianópolis"
     year: 2015
-    color: "#626A8A"
-    file_name: "2015-tdc-metaprogramacao.pdf"
-
+    file_name: "2015-tdc-metaprogramacao"
   - title: "DSLs with Ruby"
     conference: "TDC São Paulo"
     year: 2015
-    color: "#CA6063"
-    file_name: "2015-dsls-ruby.pdf"
-
-  - title: "Action Cable<br />in Action"
+    file_name: "2015-dsls-ruby"
+  - title: "Action Cable in Action"
     conference: "TDC São Paulo / Rupy"
     year: 2016
-    color: "#5E327C"
-    file_name: "2016-actioncable.pdf"
-
+    file_name: "2016-actioncable"
   - title: "5 pillars of a successful Java web application"
     conference: "Red Hat Forum / JUG Campinas"
     year: 2017
-    color: "#A73636"
-    file_name: "2017-5pilares.pdf"
-
+    file_name: "2017-5pilares"
   - title: "Design Patterns 101"
     conference: "Campus Party"
     year: 2018
-    color: "#88304E"
-    file_name: "2018-design-patterns.pdf"
-
-  - title: "Keeping your monolith alive in a high-availability environment"
+    file_name: "2018-design-patterns"
+  - title: "Keeping your monolith alive in a<br />high-availability environment"
     conference: "TDC Porto Alegre"
     year: 2019
-    color: "#0f5855"
-    file_name: "2019-mantendo-seu-monolito-vivo.pdf"
-
+    file_name: "2019-mantendo-seu-monolito-vivo"
   - title: "DMN for Developers"
     conference: "Kie community live"
     year: 2020
-    color: "#af1d60"
-    file_name: "2020-dmn-for-developers.pdf"
-
-  - title: "How to play<br />with DMN"
+    file_name: "2020-dmn-for-developers"
+  - title: "How to play with DMN"
     conference: "Kie community live"
     year: 2021
-    color: "#231c33"
-    file_name: "2021-how-to-play-with-dmn.pdf"
-
-  - title: "Building native Ruby<br />extensions in Rust"
+    file_name: "2021-how-to-play-with-dmn"
+  - title: "Building native Ruby extensions in Rust"
     conference: "EuRuKo / Baltic Ruby"
     year: 2024
-    color: "#121c33"
-    file_name: "2024-euruko-building-native-ruby-extensions-in-rust.pdf"
+    file_name: "2024-euruko-building-native-ruby-extensions-in-rust"
+open_source:
+  - project: "Liquid"
+    repository: https://github.com/shopify/liquid
+    duration: "2025 - Present"
+  - project: "Liquid language server"
+    repository: https://github.com/shopify/theme-tools
+    duration: "2023 - Present"
+  - project: "Ruby (RubyGems, error highlight)"
+    repository: https://github.com/ruby/ruby
+    duration: "2024"
+  - project: "Shopify CLI"
+    repository: https://github.com/shopify/cli
+    duration: "2021 - 2024"
+  - project: "DMN (tooling)"
+    repository: https://github.com/kiegroup/kie-wb-common
+    duration: "2018 - 2021"
+  - project: "Drools (tooling)"
+    repository: https://github.com/kiegroup/drools-wb
+    duration: "2016 - 2018"
+  - project: "RuboCop (auto-correct fix)"
+    repository: https://github.com/rubocop/rubocop
+    duration: "2015"
+  - project: "Discourse (onebox)"
+    repository: https://github.com/discourse/onebox
+    duration: "2014"

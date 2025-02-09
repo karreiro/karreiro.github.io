@@ -1,0 +1,15 @@
+<section class="recent-posts">
+    <h3>Recent posts</h3>
+    <ul>
+        {% assign posts = site.posts | where: "archived", include.archived %}
+        {% for post in posts | limit: 3 %}
+
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title | replace: "[URLOTW]", "" | escape }}
+            </a>
+        </li>
+
+        {% endfor %}
+    </ul>
+</section>

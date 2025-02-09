@@ -1,0 +1,41 @@
+
+// TextRow
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.text-row
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+
+  .line
+    margin: 0 1rem
+    border-top: 1px dashed $color-dim
+    width: 100%
+    flex-shrink: 1
+
+  .text
+    flex-grow: 1
+    white-space: nowrap
+
+  .text.text--mono
+    font-family: $font-family-mono
+    font-size: 1.5rem
+
+  .text + .text,
+  .text + .line + .text
+    text-align: right
+
+@media (max-width: 40.0rem)
+  .text-row
+    display: inline-flex
+    width: 100%
+    .text
+      width: 50%
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+    .text + .line + .text
+      width: 50%
+    .line
+      display: none

@@ -2,7 +2,22 @@
 layout: default
 ---
 
-<section class="container">
-  <h1>Talks</h1>
-  {% include talks.html %}
+<section>
+    <h1>Talks</h1>
+    <div class="talks">
+        {% for talk in site.talks reversed %}
+        <div>
+            {% assign key = talk.file_name %}
+            <a href="/assets/talks/{{ key }}.pdf">
+                <div style="background-image: url('/assets/talks/{{ key }}.png')" class="thumbnail">
+                </div>
+                {{ talk.title }}<br>
+            </a>
+            <span>
+                {{ talk.year }}:
+                {{ talk.conference }}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
 </section>

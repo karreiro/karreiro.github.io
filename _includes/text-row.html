@@ -1,0 +1,18 @@
+<div class="text-row">
+    <span class="text">
+        {% if include.left_link %}
+        <a href="{{ include.left_link }}">{{ include.left_text }}</a>
+        {% else %}
+        {{ include.left_text }}
+        {% endif %}
+    </span>
+
+
+    {% unless include.no_line %}
+    <span class="line"></span>
+    {% endunless %}
+
+    <span class="text text--mono">
+        {{ include.right_text }}
+    </span>
+</div>

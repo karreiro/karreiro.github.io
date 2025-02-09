@@ -12,7 +12,7 @@ archived: false
 This week the winner is **The master guide to smooth, realistic shadows in CSS**:
 [dev.to/devang/the-master-guide-to-smooth-realistic-shadows-in-css-463p](https://dev.to/devang/the-master-guide-to-smooth-realistic-shadows-in-css-463p).
 
-[![The master guide to smooth, realistic shadows in CSS - website screenshot](/assets/the-master-guide-to-smooth-realistic-shadows-in-css.png "The master guide to smooth, realistic shadows in CSS - website screenshot")](/assets/the-master-guide-to-smooth-realistic-shadows-in-css.png)
+![The master guide to smooth, realistic shadows in CSS - website screenshot](/assets/the-master-guide-to-smooth-realistic-shadows-in-css.png "The master guide to smooth, realistic shadows in CSS - website screenshot")
 
 I got myself surprised by the use of multiple shadow layers to achieve such excellent results. Still, the [support](https://caniuse.com/mdn-css_properties_box-shadow_multiple_shadows) of most of the browsers for this feature is quite extensive.
 

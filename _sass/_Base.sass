@@ -1,29 +1,47 @@
 
 // Base
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Set box-sizing globally to handle padding and border widths
 *,
 *:after,
 *:before
   box-sizing: inherit
 
-// The base font-size is set at 62.5% for having the convenience
-// of sizing rems in a way that is similar to using px: 1.6rem = 16px
 html
   box-sizing: border-box
   font-size: 62.5%
   line-height: 1.2
   -webkit-text-size-adjust: 100%
 
-// Default body styles
 body
-  color: $color-secondary
-  font-size: 1.6em
-  line-height: 1.6
+  font-size: 1.62em
+  font-family: $font-family-default
+  line-height: 1.62
+  padding: 0 1.2rem
+  color: $color-fg
+  background-color: $color-bg
+  text-rendering: optimizelegibility
 
-iframe
-  margin: 1rem 0 2.75rem
+main
+  max-width: 64rem
+  margin: 8rem auto 0
+
+span
+  color: $color-subtle
+
+section
+  margin-bottom: $margin-bottom-after
 
 ::selection
-  background: #eeeeee
+  background: $color-subtle
+::-webkit-scrollbar
+  width: 1rem
+  height: 1rem
+::-webkit-scrollbar-track
+  background-color: $color-bg
+::-webkit-scrollbar-thumb
+  background-color: $color-dim
+
+@media (max-width: 40.0rem)
+  main
+    margin-top: 1rem

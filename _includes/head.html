@@ -1,31 +1,29 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="{{ site.author }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author }}">
 
-  <title>
-    {{ site.title | escape }}
-    |
-    {% if page.title %}
-    {{ page.title | escape }}
-    {% else %}
-    Posts
-    {% endif %}
-  </title>
-  <meta name="description"
-    content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    {% assign title = site.title | escape %}
+    {% assign timestamp = 'now' | date: "%Y%m%dT%H%M%S" %}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+    <title>
+        {{ title }}
+        //
+        {{ title | default: 'Posts' | escape }}
+    </title>
+    <meta name="description" content="{{
+        page.excerpt
+        | default: site.description
+        | strip_html
+        | normalize_whitespace
+        | truncate: 160
+        | escape
+    }}">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/assets/profile-drawing.png?v={{ timestamp }}">
+    <link rel="stylesheet" href="/assets/main.css?v={{ timestamp }}">
 
-  <link rel="icon" href="/assets/profile-drawing.png">
-
-  {% assign latest_build_time = 'now' | date: "%Y%m%dT%H%M%S" %}
-  <link rel="stylesheet" href="/assets/normalize.css?v={{ latest_build_time }}">
-  <link rel="stylesheet" href="/assets/main.css?v={{ latest_build_time }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="{{ title }}">
 </head>

@@ -3,76 +3,76 @@ layout: default
 ---
 
 <div id="snippet">
-  <div class="row">
-    <div class="column column-50">
-      <h3>Code</h3>
-    </div>
-    <div class="column column-50">
-      <h3>Preview</h3>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column column-50">
-      <div class="highlighter-rouge">
-        <div class="highlight">
-          <pre class="highlight">
-            <code id="code" class="html"></code>
-          </pre>
+    <div class="row">
+        <div class="column column-50">
+            <h3>Code</h3>
         </div>
-      </div>
+        <div class="column column-50">
+            <h3>Preview</h3>
+        </div>
     </div>
-    <div class="column column-50">
-      <iframe id="livePreview"></iframe>
+
+    <div class="row">
+        <div class="column column-50">
+            <div class="highlighter-rouge">
+                <div class="highlight">
+                    <pre class="highlight">
+                        <code id="code" class="html"></code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <div class="column column-50">
+            <iframe id="livePreview"></iframe>
+        </div>
     </div>
-  </div>
 </div>
 
 <script type="text/javascript" src="/assets/js/highlight.min.js"></script>
 <script type="text/javascript">
-  (function () {
+    (function () {
 
-    const gistId = new URLSearchParams(window.location.search).get('gist_id');
-    const snippet = document.querySelector('#snippet');
-    const livePreview = document.querySelector('#livePreview');
-    const code = document.querySelector('#code');
+        const gistId = new URLSearchParams(window.location.search).get('gist_id');
+        const snippet = document.querySelector('#snippet');
+        const livePreview = document.querySelector('#livePreview');
+        const code = document.querySelector('#code');
 
-    function showLivePreview(content) {
-      const livePreviewDocument = livePreview.contentWindow.document;
-      livePreviewDocument.open();
-      livePreviewDocument.write(content);
-      livePreviewDocument.close();
-    }
+        function showLivePreview(content) {
+            const livePreviewDocument = livePreview.contentWindow.document;
+            livePreviewDocument.open();
+            livePreviewDocument.write(content);
+            livePreviewDocument.close();
+        }
 
-    function showHighlightedCode(content) {
-      code.innerHTML = hljs.highlightAuto(content).value;
-    }
+        function showHighlightedCode(content) {
+            code.innerHTML = hljs.highlightAuto(content).value;
+        }
 
-    function showPreview(content) {
-      showLivePreview(content);
-      showHighlightedCode(content);
-      snippet.hidden = false;
-    }
+        function showPreview(content) {
+            showLivePreview(content);
+            showHighlightedCode(content);
+            snippet.hidden = false;
+        }
 
-    snippet.hidden = true;
+        snippet.hidden = true;
 
-    fetch('https://api.github.com/gists/' + gistId)
-      .then(function (res) {
-        return res.json().then(function (body) {
-          if (res.status === 200) {
-            return body;
-          }
-        });
-      })
-      .then(function (info) {
-        const fileName = Object.keys(info.files)[ 0 ];
-        const content = info.files[ fileName ].content;
+        fetch('https://api.github.com/gists/' + gistId)
+            .then(function (res) {
+                return res.json().then(function (body) {
+                    if (res.status === 200) {
+                        return body;
+                    }
+                });
+            })
+            .then(function (info) {
+                const fileName = Object.keys(info.files)[0];
+                const content = info.files[fileName].content;
 
-        showPreview(content);
-      })
-      .catch(function (err) {
-        console.log(err)
-        window.location.href = '/404.html';
-      });
-  }());
+                showPreview(content);
+            })
+            .catch(function (err) {
+                console.log(err)
+                window.location.href = '/404.html';
+            });
+    }());
 </script>

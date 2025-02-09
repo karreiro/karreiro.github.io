@@ -1,20 +1,14 @@
 ---
 layout: default
 ---
-<section class="container home">
-  <a href="/" class="profile-drawing-frame">
-    <img alt="profile drawing" class="profile-drawing" src="/assets/profile-drawing.png" />
-  </a>
 
-  <h3>Hello!</h3>
-  {{ content }}
+<section class="home">
+    <h1>Guilherme Carreiro</h1>
+    <h2>Staff Engineer</h2>
 
-  {% if site.highlighted_posts %}
-  {% include highlights.html %}
-  {% endif %}
+    {{ content }}
 
-  <h3>Recent posts</h3>
-  {% include activity.html archived=false limit=8 %}
-  {% include bottom-button.html text="All posts" href="/posts" %}
-
+    {% include recent-posts.html %}
+    {% include open-source.html %}
+    {% include work.html %}
 </section>

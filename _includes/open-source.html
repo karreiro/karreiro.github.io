@@ -1,0 +1,19 @@
+<section class="open-source">
+    <h3>Open Source</h3>
+    <ul>
+        {% for contribution in site.open_source %}
+
+        {% assign link = contribution.repository | append: '/commits?author=' | append: site.github_username %}
+
+        <li>
+            {%
+            include text-row.html
+            left_text=contribution.project
+            left_link=link
+            right_text=contribution.duration
+            %}
+        </li>
+
+        {% endfor %}
+    </ul>
+</section>

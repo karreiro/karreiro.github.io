@@ -1,14 +1,14 @@
 {% if page.url == '/wiki/' %}
 <h1>
-  karreiro's <span>wiki folder</span>
+    karreiro's <span>wiki folder</span>
 </h1>
 {% else %}
 <h1>{{ page.title | escape }}</h1>
 {% if page.last_updated %}
 <p>
-  <time datetime="{{ page.last_updated | date_to_xmlschema }}" itemprop="dateModified">
-    Last updated on {{ page.last_updated | date: '%b %-d, %Y' }}
-  </time>
+    <time datetime="{{ page.last_updated | date_to_xmlschema }}" itemprop="dateModified">
+        Last updated on {{ page.last_updated | date: '%b %-d, %Y' }}
+    </time>
 </p>
 {% endif %}
 {% endif %}

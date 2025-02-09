@@ -1,0 +1,17 @@
+
+// Anchor 
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a
+  color: $color-accent
+  text-decoration: none
+  transition: border-bottom ease-out 0.1s
+  border-bottom: 2px solid transparent
+  &:hover
+    border-bottom: 2px solid $color-accent
+
+a:has(> img),
+a:hover:has(> img),
+a[href$=".png"],
+a[href$=".png"]:hover
+  border: none

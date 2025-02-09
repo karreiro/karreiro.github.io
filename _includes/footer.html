@@ -1,3 +1,5 @@
 <footer>
-  &copy; {{ 'now' | date: "%Y" }} · {{ site.author }}
+    {% assign l_text = site.author | prepend: "&copy; " %}
+    {% assign r_text = site.time | date: "%Y-%m-%d %H:%M" %}
+    {% include text-row.html left_text=l_text right_text=r_text no_line=true %}
 </footer>

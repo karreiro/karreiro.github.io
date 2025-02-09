@@ -1,8 +1,12 @@
 ---
 layout: home
+title: "@karreiro"
 ---
 
-My name is Guilherme Carreiro (or `@karreiro`). I like to build tools for other developers (like you!). I'm currently working at Shopify, where I focus on the developer experience and building command-line tooling.
+I love the journey—understanding the context, learning new things, writing the code, and leaving bridges for developers who come later. My open‑source work is on GitHub under [@karreiro](http://github.com/karreiro). Any comments about that? [Reach out!](https://www.linkedin.com/in/karreiro)
 
-If you're curious about **what** I'm making, check my [Github](https://github.com/karreiro). However, if you're curious about **how** I'm making stuff, check my [posts](/posts) or my [wiki](/wiki). Also, feel free to reach out on [Twitter](https://twitter.com/karreiro_).
+![Demo](/assets/profile-picture-2.png "Demo")
 
+Currently, I'm working on the evolution of Liquid, pushing enhancements across the language, the standard library, and the runtime. Prior to that, I led the DMN tooling team at Red Hat, where I empowered users to build decision models with no‑code tools.
+
+When I'm not coding, I love spending time with my family, listening to music, drawing cartoons, and sometimes doing it all at once.
