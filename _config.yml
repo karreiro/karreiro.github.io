@@ -58,6 +58,10 @@ talks:
     conference: "EuRuKo / Baltic Ruby"
     year: 2024
     file_name: "2024-euruko-building-native-ruby-extensions-in-rust"
+  - title: "Theme Systems at Scale"
+    conference: "InfoQ Dev Summit Boston, Munich"
+    year: 2025
+    file_name: "2025-theme-systems-at-scale"
 open_source:
   - project: "Liquid"
     repository: https://github.com/shopify/liquid
